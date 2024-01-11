@@ -1,7 +1,7 @@
 # 👩🏻‍🍳 Haystack Cookbook
 A collection of example notebooks using Haystack 👇
 You can use these examples as guildelines on how to make use of different model providers, vector databases, retrieval techniques and more with Haystack. Most of them showcase a specific, small demo. 
-To learn more about _how_ to user Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
+To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
 For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
 
 | Name | Colab|
