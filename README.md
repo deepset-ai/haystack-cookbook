@@ -1,5 +1,8 @@
 # 👩🏻‍🍳 Haystack Cookbook
-A collection of example notebooks using Haystack 👇
+A collection of example notebooks using [Haystack](https://github.com/deepset-ai/haystack) 👇
+You can use these examples as guildelines on how to make use of different model providers, vector databases, retrieval techniques and more with Haystack. Most of them showcase a specific, small demo. 
+To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
+For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
 
 | Name | Colab|
 | ---- | ---- |
@@ -12,6 +15,7 @@ A collection of example notebooks using Haystack 👇
 | Using the Jina-embeddings-v2-base-en model in a Haystack RAG pipeline for legal document analsysis| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/jina-embeddings-v2-legal-analysis-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Multilingual RAG from a podcast with Whisper, Qdrant and Mixtral| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/multilingual_rag_podcast.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Improve retrieval by embedding meaningful metadata| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/improve-retrieval-by-embedding-metadata.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Information extraction via LLMs (Gorilla OpenFunctions)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/information-extraction-gorilla.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Cohere for Multilingual QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/cohere-for-multilingual-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | GPT-4 and Weaviate for Custom Documentation QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/gpt4-weaviate-custom-documentation-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Whisper Transcriber and Weaviate for YouTube video QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
