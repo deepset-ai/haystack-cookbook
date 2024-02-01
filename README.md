@@ -27,6 +27,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | Whisper Transcriber and Weaviate for YouTube video QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Using AstraDB as a data store in your Haystack pipelines| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/astradb_haystack_integration.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Streaming model explorer: compare how different models handle the same prompt.| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/model_explorer_streaming.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Function Calling with OpenAIChatGenerator| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/function_calling_with_OpenAIChatGenerator.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
 ## How to Contribute to this repository
 
