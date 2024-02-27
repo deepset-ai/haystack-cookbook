@@ -11,6 +11,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 
 | Name | Colab|
 | ---- | ---- |
+| Techcrunch News Digest with Local LLMs using TitanML Takeoff | <a href="https://colab.research.google.com/drive/10EralM_8pCJ5nXnGIZYr6atqefmi8r2z?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Use Gemini Models with Vertex AI| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/vertexai-gemini-examples.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Gradient AI Embedders and Generators for RAG | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/gradient-embeders-and-generators-for-notion-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Mixtral 8x7B with Hugging Face TGI for Web QA | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/mixtral-8x7b-for-web-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
