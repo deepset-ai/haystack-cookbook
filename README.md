@@ -1,4 +1,9 @@
 # 👩🏻‍🍳 Haystack Cookbook
+
+<div align="center">
+  <a href="https://haystack.deepset.ai/"><img src="https://github.com/deepset-ai/haystack/blob/main/docs/img/banner_20.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset. Haystack 2.0 is live 🎉' Abstract green and yellow diagrams in the background."></a>
+</div>
+
 A collection of example notebooks using [Haystack](https://github.com/deepset-ai/haystack) 👇
 
 You can use these examples as guidelines on how to make use of different model providers, vector databases, retrieval techniques and more with Haystack. Most of them showcase a specific, small demo.
