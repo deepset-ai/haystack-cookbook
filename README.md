@@ -12,7 +12,7 @@ To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.
 
 For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
 
-**Note:** Unless '(Haystack 1.x)' is mentioned in the title, all of these examples use Haystack 2.0-Beta onwards.
+**Note:** Unless '(Haystack 1.x)' is mentioned in the title, all of these examples use Haystack 2.0 onwards.
 
 | Name | Colab|
 | ---- | ---- |
