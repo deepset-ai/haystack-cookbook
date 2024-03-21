@@ -16,7 +16,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 
 | Name | Colab|
 | ---- | ---- |
-| Speaker Diarization with AssemblyI | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/using_speaker_diarization_with_assemblyai.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Speaker Diarization with AssemblyAI | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/using_speaker_diarization_with_assemblyai.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Advance Prompt Customization for Anthropic | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/prompt_customization_for_Anthropic.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Techcrunch News Digest with Local LLMs using TitanML Takeoff | <a href="https://colab.research.google.com/drive/10EralM_8pCJ5nXnGIZYr6atqefmi8r2z?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Use Gemini Models with Vertex AI| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/vertexai-gemini-examples.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
