@@ -45,6 +45,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | Cohere for Multilingual QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/cohere-for-multilingual-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | GPT-4 and Weaviate for Custom Documentation QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/gpt4-weaviate-custom-documentation-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Whisper Transcriber and Weaviate for YouTube video QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Evaluate a RAG pipeline using Ragas-Haystack integration (Haystack 2.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/rag_eval_ragas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
 ## How to Contribute to this repository
 
