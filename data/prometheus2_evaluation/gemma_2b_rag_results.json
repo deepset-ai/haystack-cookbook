@@ -1,0 +1,38 @@
+{
+    "questions": [
+        "Is cDK1 and CDK2 activity a strong predictor of renal cell carcinoma recurrence?",
+        "Does metabolic control analysis of the Trypanosoma cruzi peroxide detoxification pathway identify tryparedoxin as a suitable drug target?",
+        "Does promoter variant rs2301228 on the neural cell adhesion molecule 1 gene confer risk of schizophrenia in Han Chinese?",
+        "Does pancreatic polypeptide regulate glucagon release through PPYR1 receptors expressed in mouse and human alpha-cells?",
+        "Does tetraploid complementation prove pluripotency of induced pluripotent stem cells derived from adipose tissue?",
+        "Is osteoprotegerin associated with subclinical left ventricular systolic dysfunction in diabetic hypertensive patients : a speckle tracking study?",
+        "Is cD30 expression a novel prognostic indicator in extranodal natural killer/T-cell lymphoma , nasal type?",
+        "Does mild cognitive dysfunction affect diabetes mellitus control in minority elderly adults?",
+        "Do youth walking and biking rates vary by environments around 5 Louisiana schools?",
+        "Are human enteroviruses the cause of neurological impairments in children at the Korle-Bu Teaching Hospital?"
+    ],
+    "ground_truth_answers": [
+        "CDK1SA of tumors and the CDK2SA are both associated with recurrence and prognosis.",
+        "These quantitative kinetic and metabolic analyses pointed out to TXN as a convenient drug target due to its low catalytic efficiency, high control on the flux of peroxide detoxification and role as provider of reducing equivalents to the two main peroxidases in the parasite.",
+        "Our results provide direct evidence for NCAM1 as a susceptibility gene for schizophrenia, which offers support to a neurodevelopmental model and neuronal connectivity hypothesis in the onset of schizophrenia.",
+        "Glucose stimulates PP secretion and PP inhibits glucagon release in mouse pancreatic islets. PP receptors are present in alpha-cells of mouse and human pancreatic islets.",
+        "We also directed differentiation of iPS cells into chondrocytes, thus adipose-derived iPS cells can be used as models to study chondrogenic differentiation and cartilage regeneration.",
+        "Plasma OPG values could predict subclinical LV systolic dysfunction in diabetic hypertensive patients.",
+        "Our results showed that expression of CD30 was not related to response to treatment but was an independent prognostic factor for both OS and PFS in ENKTL, nasal type, which suggests a role for CD30 in the pathogenesis of this disease and may support the incorporation of anti-CD30-targeted therapy into the treatment paradigm for ENKTL.",
+        "Cognitive dysfunction in the mild range did not seem to affect diabetes mellitus control parameters in this multiethnic cohort of older adults with diabetes mellitus, although it cannot be excluded that cognitive impairment was overcome through assistance from formal or informal caregivers. It is possible that more-severe cognitive dysfunction could affect control.",
+        "There is a role and a need for the SRTS program. The environment and other factors influence biking and walking to school.",
+        "Non-polio enteroviruses and chikugunya virus were found not to be the etiologic agent responsible for the convulsion with neurologic morbidity observed in the Ghanaian children. Investigation for other viral agents is recommended."
+    ],
+    "rag_answers": [
+        " **Yes, cDK1 and CDK2 activity is a strong predictor of renal cell carcinoma recurrence.**\n\nThe study found that tumors with low CDK2SA-CDK1SA ratio showed significantly better 5-year recurrence-free survival than those with high CDK2SA-CDK1SA ratio.",
+        " **Yes.**\n\nMetabolic control analysis of the Trypanosoma cruzi peroxide detoxification pathway identified tryparedoxin as a suitable drug target, with 90-100% of the pathway flux controlled by TXN-TXNPx and TXN-GPxA redox pairs.",
+        " **Yes.**\n\nThe study found that the promoter variant rs2301228 on the NCAM1 gene is associated with schizophrenia in Han Chinese.",
+        " **Yes.**\n\nThe context information indicates that PPYR1 receptors are expressed in the alpha-cell population of mouse and human islets, and that PP release increases upon glucose stimulation, leading to inhibition of glucagon release.",
+        " **Yes.**\n\nThe study shows that tetraploid complementation successfully generated viable and fertile adult mice derived entirely from reprogrammed ASC, indicating that cell types other than fibroblasts can also be restored to the embryonic level of pluripotency.",
+        " **Yes**, osteoprotegerin (OPG) is associated with subclinical left ventricular systolic dysfunction in diabetic hypertensive patients.\n\n**Results:**\n\n* Diabetic hypertensive patients had higher diastolic peak early/early diastolic tissue velocity and lower systolic tissue velocity, GLS, GLS rate systolic, and GLS rate early diastolic than nondiabetic hypertensive patients.\n* OPG was found to be an independent predictor of impaired GLS.\n* Receiver operating characteristic curve analysis revealed that OPG values of > 6.45 (pmol/L) identified the patients with GLS \u2264 18.5.",
+        "**Yes**, CD30 expression is a novel prognostic indicator in extranodal natural killer/T-cell lymphoma, nasal type.\n\nThe study found that CD30 positivity was associated with shorter 5-year OS and PFS in patients with extranodal natural killer/T-cell lymphoma, nasal type.",
+        " The provided text does not contain any information regarding whether mild cognitive dysfunction affects diabetes mellitus control in minority elderly adults, so I am unable to answer this question from the provided context.",
+        " The provided text indicates that there is a significant difference in the walking and biking rates between the 5 Louisiana schools. More students walked than biked to school, and the sites with the highest PEDS score had the highest percentage of students who walked/biked to school.",
+        "The provided text suggests that enteroviruses were detected in cerebrospinal fluid (CSF) samples from children at the Korle-Bu Teaching Hospital, but further studies are needed to establish a causal relationship between enteroviruses and neurological impairments."
+    ]
+}
