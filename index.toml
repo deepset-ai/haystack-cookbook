@@ -41,7 +41,7 @@ notebook = "chat_with_SQL_3_ways.ipynb"
 topics = ["Chat", "SQL"]
 
 [[cookbook]]
-title = "Chroma Indexing and RAG Exmples"
+title = "Chroma Indexing and RAG Examples"
 notebook = "chroma-indexing-and-rag-examples.ipynb"
 topics = ["RAG", "Vector Databases"]
 
@@ -79,7 +79,7 @@ notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Notion RAG with Graidient Models"
+title = "Notion RAG with Gradient Models"
 notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
 topics = ["RAG"]
 hide = true
@@ -130,7 +130,7 @@ notebook = "model_explorer_streaming.ipynb"
 topics = ["Discovery"]
 
 [[cookbook]]
-title = "Multiliungual RAG on a Podcast"
+title = "Multilingual RAG on a Podcast"
 notebook = "multilingual_rag_podcast.ipynb"
 topics = ["Audio", "Multilingual RAG"]
 
