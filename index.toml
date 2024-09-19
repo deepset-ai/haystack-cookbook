@@ -48,7 +48,7 @@ topics = ["RAG", "Vector Databases"]
 [[cookbook]]
 title = "Cohere v3 for Multilingual QA"
 notebook = "cohere-v3-for-multilingual-qa.ipynb"
-topics = ["Multiliungual RAG"]
+topics = ["Multilingual RAG"]
 
 [[cookbook]]
 title = "Run Tasks Concurrently Within a Custom Component"
@@ -112,7 +112,7 @@ topics = ["Function Calling"]
 [[cookbook]]
 title = "Legal Document Analysis with jina-embeddings-v2-base-en"
 notebook = "jina-embeddings-v2-legal-analysis-rag.ipynb"
-topics = ["Summarization", "Advanced Retrieva"]
+topics = ["Summarization", "Advanced Retrieval"]
 
 [[cookbook]]
 title = "RAG with Llama 3.1"
