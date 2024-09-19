@@ -27,7 +27,7 @@ topics = ["RAG"]
 title = "Improving Retrieval with Auto-Merging and Hierarchical Document Retrieval"
 notebook = "auto_merging_retriever.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
-experimental = True
+experimental = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/78"
 
 [[cookbook]]
@@ -82,7 +82,7 @@ topics = ["RAG"]
 title = "Notion RAG with Graidient Models"
 notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
 topics = ["RAG"]
-hide = True
+hide = true
 
 [[cookbook]]
 title = "Hacker News Summaries with Custom Components"
@@ -138,7 +138,7 @@ topics = ["Audio", "Multilingual RAG"]
 title = "Invoking APIs with OpenAPITool"
 notebook = "openapitool.ipynb"
 topics = ["Function Calling"]
-experimental = True
+experimental = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/79"
 
 [[cookbook]]
@@ -166,7 +166,7 @@ topics = ["Advanced Retrieval", "RAG"]
 title = "Evaluating RAG Pipelines with EvaluationHarness"
 notebook = "rag_eval_harness.ipynb"
 topics = ["Evaluation"]
-experimental = True
+experimental = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
 
 [[cookbook]]
