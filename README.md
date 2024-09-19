@@ -8,6 +8,8 @@ A collection of example notebooks using [Haystack](https://github.com/deepset-ai
 
 You can use these examples as guidelines on how to make use of different model providers, vector databases, retrieval techniques and more with Haystack. Most of them showcase a specific, small demo.
 
+> 🧑‍🍳 [Guidelines on How to Contribute a Cookbook](#how-to-contribute-to-this-repository)
+
 To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
 
 For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
@@ -61,10 +63,11 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | GPT-4 and Weaviate for Custom Documentation QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/gpt4-weaviate-custom-documentation-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Whisper Transcriber and Weaviate for YouTube video QA (Haystack 1.x)| <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
-## How to Contribute to this repository
+## How to Contribute a Cookbook
 
 If you have an example that uses Haystack, you can add it to this repository by creating a PR. You can also create a PR from Colab by creating a Fork of this repository and selecting "Save a Copy to GitHub". Once you add your example to your fork, you can create a PR onto this repository. 
 
 1. Add your Notebook
 2. Give a descriptive name to your file that includes the names of (if applicable) the model providers, databases the technologies you use in your example and/or the task you are completing in the example.
-3. Make sure to add a row in the table above 🎉
+3. Make sure you add it to `index.toml` including its title and topics.
+4. Make sure to add a row in the table above 🎉

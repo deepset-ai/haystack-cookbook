@@ -1,0 +1,230 @@
+[config]
+layout = "cookbook"
+toc = true
+colab = "https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/"
+
+[[cookbook]]
+title = "PDF-Based Question Answering with Amazon Bedrock and Haystack"
+notebook = "amazon_bedrock_for_documentation_qa.ipynb"
+topics = ["RAG"]
+
+[[cookbook]]
+title = "Question Answering with Amazon Sagemaker, Chroma and Haystack"
+notebook = "amazon_sagemaker_and_chroma_for_qa.ipynb"
+topics = ["RAG"]
+
+[[cookbook]]
+title = "RAG: Extract and use website content for question answering with Apify-Haystack integration"
+notebook = "apify_haystack_rag.ipynb"
+topics = ["RAG", "Web-QA"]
+
+[[cookbook]]
+title = "AstraDB 🤝 Haystack Integration"
+notebook = "astradb_haystack_integration.ipynb"
+topics = ["RAG"]
+
+[[cookbook]]
+title = "Improving Retrieval with Auto-Merging and Hierarchical Document Retrieval"
+notebook = "auto_merging_retriever.ipynb"
+topics = ["Advanced Retrieval", "RAG"]
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/78"
+
+[[cookbook]]
+title = "🧩 Quizzes and Adventures 🏰 with Character Codex and llamafile"
+notebook = "charactercodex_llamafile.ipynb"
+topics = ["Model Serving", "Chat"]
+
+[[cookbook]]
+title = "Chat With Your SQL Database"
+notebook = "chat_with_SQL_3_ways.ipynb"
+topics = ["Chat", "SQL"]
+
+[[cookbook]]
+title = "Chroma Indexing and RAG Exmples"
+notebook = "chroma-indexing-and-rag-examples.ipynb"
+topics = ["RAG", "Vector Databases"]
+
+[[cookbook]]
+title = "Cohere v3 for Multilingual QA"
+notebook = "cohere-v3-for-multilingual-qa.ipynb"
+topics = ["Multiliungual RAG"]
+
+[[cookbook]]
+title = "Run Tasks Concurrently Within a Custom Component"
+notebook = "concurrent_tasks.ipynb"
+topics = ["Customization"]
+experimental = true
+
+[[cookbook]]
+title = "Conversational RAG using Memory"
+notebook = "conversational_rag_using_memory.ipynb"
+topics = ["Chat", "RAG"]
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/75"
+
+[[cookbook]]
+title = "Extract Metadata Filters from a Query"
+notebook = "extracting_metadata_filters_from_a_user_query.ipynb"
+topics = ["Advanced Retrieval", "Metadata"]
+
+[[cookbook]]
+title = "Function Calling with OpenAIChatGenerator"
+notebook = "function_calling_with_OpenAIChatGenerator.ipynb"
+topics = ["Function Calling", "Chat"]
+
+[[cookbook]]
+title = "Build with Gemma and Haystack 2.x"
+notebook = "gemma_chat_rag.ipynb"
+topics = ["RAG"]
+
+[[cookbook]]
+title = "Notion RAG with Graidient Models"
+notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
+topics = ["RAG"]
+hide = true
+
+[[cookbook]]
+title = "Hacker News Summaries with Custom Components"
+notebook = "hackernews-custom-component-rag.ipynb"
+topics = ["RAG", "Customization"]
+
+[[cookbook]]
+title = "Hybrid Retrieval with BM42"
+notebook = "hybrid_retrieval_bm42.ipynb"
+topics = ["Advanced Retrieval"]
+
+[[cookbook]]
+title = "Improve Retrieval by Embedding Meaningful Metadata"
+notebook = "improve-retrieval-by-embedding-metadata.ipynb"
+topics = ["Advanced Retrieval", "Metadata"]
+
+[[cookbook]]
+title = "🐦‍⬛ Information Extraction with Raven"
+notebook = "information_extraction_raven.ipynb"
+topics = ["Function Calling"]
+
+[[cookbook]]
+title = "🦍 Information Extraction with Gorilla"
+notebook = "information-extraction-gorilla.ipynb"
+topics = ["Function Calling"]
+
+[[cookbook]]
+title = "Legal Document Analysis with jina-embeddings-v2-base-en"
+notebook = "jina-embeddings-v2-legal-analysis-rag.ipynb"
+topics = ["Summarization", "Advanced Retrieva"]
+
+[[cookbook]]
+title = "RAG with Llama 3.1"
+notebook = "llama3_rag.ipynb"
+topics = ["RAG"]
+
+[[cookbook]]
+title = "Web QA with Mixtral-8x7B-Instruct-v0.1"
+notebook = "mixtral-8x7b-for-web-qa.ipynb"
+topics = ["Web-QA"]
+
+[[cookbook]]
+title = "Streaming Model Explorer"
+notebook = "model_explorer_streaming.ipynb"
+topics = ["Discovery"]
+
+[[cookbook]]
+title = "Multiliungual RAG on a Podcast"
+notebook = "multilingual_rag_podcast.ipynb"
+topics = ["Audio", "Multilingual RAG"]
+
+[[cookbook]]
+title = "Invoking APIs with OpenAPITool"
+notebook = "openapitool.ipynb"
+topics = ["Function Calling"]
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/79"
+
+[[cookbook]]
+title = "RAG Evaluation with Prometheus 2"
+notebook = "prometheus2_evaluation.ipynb"
+topics = ["Evaluation"]
+
+[[cookbook]]
+title = "Advance Prompt Customization for Anthropic"
+notebook = "prompt_customization_for_Anthropic.ipynb"
+topics = ["Customization", "Prompting"]
+
+[[cookbook]]
+title = "Prompt Optimization with DSPy"
+notebook = "prompt_optimization_with_dspy.ipynb"
+topics = ["Customization", "Prompting"]
+
+[[cookbook]]
+title = "Advanced RAG: Query Expansion"
+notebook = "query-expansion.ipynb"
+topics = ["Advanced Retrieval", "RAG"]
+
+
+[[cookbook]]
+title = "Evaluating RAG Pipelines with EvaluationHarness"
+notebook = "rag_eval_harness.ipynb"
+topics = ["Evaluation"]
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
+
+[[cookbook]]
+title = "RAG Pipeline Evaluation Using DeepEval"
+notebook = "rag_eval_deep_eval.ipynb"
+topics = ["Evaluation"]
+
+[[cookbook]]
+title = "RAG Pipeline Evaluation Using RAGAS"
+notebook = "rag_eval_ragas.ipynb"
+topics = ["Evaluation"]
+
+[[cookbook]]
+title = "RAG Pipeline Evaluation Using UpTrain"
+notebook = "rag_eval_uptrain.ipynb"
+topics = ["Evaluation"]
+
+[[cookbook]]
+title = "RAG Pipeline Using FastEmbed for Embeddings Generationn"
+notebook = "rag_fastembed.ipynb"
+topics = ["RAG", "Advanced Retrieval"]
+
+[[cookbook]]
+title = "Haystack RAG Pipeline with Self-Deployed AI models using NVIDIA NIMs"
+notebook = "rag-with-nims.ipynb"
+topics = ["RAG", "Model Serving"]
+
+[[cookbook]]
+title = "Sparse Embedding Retrieval with Qdrant and FastEmbed"
+notebook = "sparse_embedding_retrieval.ipynb"
+topics = ["RAG", "Advanced Retrieval"]
+
+[[cookbook]]
+title = "Getting a Daily Digest From Tech Websites"
+notebook = "techcrunch_news_digest_titanml_takeoff.ipynb"
+topics = ["Model Serving", "RAG"]
+
+[[cookbook]]
+title = "Using Hypothetical Document Embeddinga (HyDE) to Improve Retrieval"
+notebook = "using_hyde_for_improved_retrieval.ipynb"
+topics = ["Advanced Retrieval", "RAG"]
+
+[[cookbook]]
+title = "Speaker Diarization with AssemblyAI"
+notebook = "using_speaker_diarization_with_assemblyai.ipynb"
+topics = ["Audio"]
+
+[[cookbook]]
+title = "Function Calling and Multimodal QA with Gemini"
+notebook = "vertexai-gemini-examples.ipynb"
+topics = ["Function Calling", "Multimodal"]
+
+[[cookbook]]
+title = "Use the ⚡ vLLM inference engine in Haystack 2.x"
+notebook = "vllm_inference_engine.ipynb"
+topics = ["Model Serving"]
+
+[[cookbook]]
+title = "🪁 RAG pipelines with Haystack 2.0 + Zephyr 7B Beta"
+notebook = "zephyr-7b-beta-for-rag.ipynb"
+topics = ["RAG"]
