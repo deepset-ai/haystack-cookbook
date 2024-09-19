@@ -41,14 +41,14 @@ notebook = "chat_with_SQL_3_ways.ipynb"
 topics = ["Chat", "SQL"]
 
 [[cookbook]]
-title = "Chroma Indexing and RAG Exmples"
+title = "Chroma Indexing and RAG Examples"
 notebook = "chroma-indexing-and-rag-examples.ipynb"
 topics = ["RAG", "Vector Databases"]
 
 [[cookbook]]
 title = "Cohere v3 for Multilingual QA"
 notebook = "cohere-v3-for-multilingual-qa.ipynb"
-topics = ["Multiliungual RAG"]
+topics = ["Multilingual RAG"]
 
 [[cookbook]]
 title = "Run Tasks Concurrently Within a Custom Component"
@@ -79,7 +79,7 @@ notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Notion RAG with Graidient Models"
+title = "Notion RAG with Gradient Models"
 notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
 topics = ["RAG"]
 hide = true
@@ -112,7 +112,7 @@ topics = ["Function Calling"]
 [[cookbook]]
 title = "Legal Document Analysis with jina-embeddings-v2-base-en"
 notebook = "jina-embeddings-v2-legal-analysis-rag.ipynb"
-topics = ["Summarization", "Advanced Retrieva"]
+topics = ["Summarization", "Advanced Retrieval"]
 
 [[cookbook]]
 title = "RAG with Llama 3.1"
@@ -130,7 +130,7 @@ notebook = "model_explorer_streaming.ipynb"
 topics = ["Discovery"]
 
 [[cookbook]]
-title = "Multiliungual RAG on a Podcast"
+title = "Multilingual RAG on a Podcast"
 notebook = "multilingual_rag_podcast.ipynb"
 topics = ["Audio", "Multilingual RAG"]
 
