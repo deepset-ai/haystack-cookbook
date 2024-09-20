@@ -38,7 +38,7 @@ topics = ["Model Serving", "Chat"]
 [[cookbook]]
 title = "Chat With Your SQL Database"
 notebook = "chat_with_SQL_3_ways.ipynb"
-topics = ["Chat", "SQL"]
+topics = ["Chat", "SQL", "Agents"]
 
 [[cookbook]]
 title = "Chroma Indexing and RAG Examples"
@@ -59,7 +59,7 @@ experimental = true
 [[cookbook]]
 title = "Conversational RAG using Memory"
 notebook = "conversational_rag_using_memory.ipynb"
-topics = ["Chat", "RAG"]
+topics = ["Chat", "RAG", "Agents"]
 experimental = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/75"
 
@@ -71,7 +71,7 @@ topics = ["Advanced Retrieval", "Metadata"]
 [[cookbook]]
 title = "Function Calling with OpenAIChatGenerator"
 notebook = "function_calling_with_OpenAIChatGenerator.ipynb"
-topics = ["Function Calling", "Chat"]
+topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
 title = "Build with Gemma and Haystack 2.x"
@@ -228,3 +228,8 @@ topics = ["Model Serving"]
 title = "🪁 RAG pipelines with Haystack 2.0 + Zephyr 7B Beta"
 notebook = "zephyr-7b-beta-for-rag.ipynb"
 topics = ["RAG"]
+
+[[cookbook]]
+title = "Advanced RAG: Query Decomposition and Reasoning"
+notebook = "query_decomposition.ipynb"
+topics = ["Advanced Retrieval", "RAG", "Agents"]
