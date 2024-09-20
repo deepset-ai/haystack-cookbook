@@ -5,6 +5,7 @@ colab = "https://colab.research.google.com/github/deepset-ai/haystack-cookbook/b
 
 [[cookbook]]
 title = "PDF-Based Question Answering with Amazon Bedrock and Haystack"
+notebook = "amazon_bedrock_for_documentation_qa.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
