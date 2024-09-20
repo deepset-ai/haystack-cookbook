@@ -1,0 +1,21 @@
+name: Verify index
+
+on:
+  pull_request:
+    paths:
+      - "notebook/*.ipynb"
+      - "index.toml"
+
+jobs:
+  verify-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify index content
+        run: python scripts/verify_index.py
