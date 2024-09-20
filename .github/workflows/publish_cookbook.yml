@@ -1,0 +1,16 @@
+name: Publish cookbook on Haystack Home
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-cookbook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: trigger-hook
+        run: |
+          curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
