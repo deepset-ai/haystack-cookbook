@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "notebook/*.ipynb"
+      - "index.toml"
 
 jobs:
   publish-cookbook:
