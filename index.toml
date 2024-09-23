@@ -233,3 +233,8 @@ topics = ["RAG"]
 title = "Advanced RAG: Query Decomposition and Reasoning"
 notebook = "query_decomposition.ipynb"
 topics = ["Advanced Retrieval", "RAG", "Agents"]
+
+[[cookbook]]
+title = "Analyze Your Instagram Comments’ Vibe with Apify and Haystack"
+notebook = "apify_haystack_instagram_comments_analysis.ipynb"
+topics = ["Prompting", "Data Scraping"]
