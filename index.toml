@@ -240,7 +240,7 @@ notebook = "apify_haystack_instagram_comments_analysis.ipynb"
 topics = ["Prompting", "Data Scraping"]
 
 [[cookbook]]
-title = "Tools support"
+title = "Define & Run Tools "
 notebook = "tools_support.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
 experimental = true
