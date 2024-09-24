@@ -1,10 +1,12 @@
 import argparse
 from pathlib import Path
 from subprocess import check_output
+import re
 
 import tomllib
 from nbconvert import MarkdownExporter
 from nbconvert.filters.strings import get_lines
+from nbformat import read, NO_CONVERT
 
 
 def generate_frontmatter(notebook):
@@ -44,11 +46,41 @@ topics: {notebook.get("topics", False)}
     return frontmatter
 
 
+def clean_colab_dataframe_cells(notebook):
+    """
+    When there ara dataframes, Colab notebooks contain text/html data
+    that include style and script, not properly rendered in markdown.
+    This function removes this data from the notebook.
+    """
+
+    for cell in notebook.cells:
+        if cell.cell_type == "code" and "outputs" in cell:
+            for output in cell.outputs:
+                # we recognize this type of data by the key 'application/vnd.google.colaboratory.intrinsic+json'
+                # and the type 'dataframe'
+                if 'application/vnd.google.colaboratory.intrinsic+json' in output.get('data', {}):
+                    if output['data']['application/vnd.google.colaboratory.intrinsic+json'].get('type') == 'dataframe':
+                        output['data'].pop('text/html', None)
+
+    return notebook
+
 def generate_markdown_from_notebook(notebook, output_path):
     frontmatter = generate_frontmatter(notebook)
-    md_exporter = MarkdownExporter(exclude_output=True)
-    body, _ = md_exporter.from_filename(f"{notebook['file']}")
+    md_exporter = MarkdownExporter(exclude_output=False)
+
+    with open(notebook["file"], "r", encoding="utf-8") as f:
+        nb = read(f, as_version=NO_CONVERT)
+    
+    # process the notebook to clean Colab dataframe cells
+    cleaned_nb = clean_colab_dataframe_cells(nb)
+
+    body, _ = md_exporter.from_notebook_node(cleaned_nb)
     body = get_lines(body, start=1)
+    
+    # remove output images from the markdown: they are not handled properly
+    img_pattern=r'^!\[png\]\(.*\.png\)$'
+    body = re.sub(img_pattern, '', body, flags=re.MULTILINE)
+
     print(f"Processing {notebook['file']}")
     filename = notebook["file"].stem
     with open(f"{output_path}/{filename}.md", "w", encoding="utf-8") as f:
@@ -80,7 +112,7 @@ if __name__ == "__main__":
         data = {
             "file": root_path / "notebooks" / cookbook_data["notebook"],
             "title": cookbook_data["title"],
-            "colab": f"{index_data["config"]["colab"]}/{cookbook_data['notebook']}",
+            "colab": f"{index_data['config']['colab']}/{cookbook_data['notebook']}",
             "featured": cookbook_data.get("featured", False),
             "experimental": cookbook_data.get("experimental", False),
             "discuss": cookbook_data.get("discuss", False),
