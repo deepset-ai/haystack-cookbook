@@ -6,6 +6,7 @@ import re
 import tomllib
 from nbconvert import MarkdownExporter
 from nbconvert.filters.strings import get_lines
+from nbformat import read, NO_CONVERT
 
 
 def generate_frontmatter(notebook):
@@ -45,10 +46,35 @@ topics: {notebook.get("topics", False)}
     return frontmatter
 
 
+def clean_colab_dataframe_cells(notebook):
+    """
+    When there ara dataframes, Colab notebooks contain text/html data
+    that include style and script, not properly rendered in markdown.
+    This function removes this data from the notebook.
+    """
+
+    for cell in notebook.cells:
+        if cell.cell_type == "code" and "outputs" in cell:
+            for output in cell.outputs:
+                # we recognize this type of data by the key 'application/vnd.google.colaboratory.intrinsic+json'
+                # and the type 'dataframe'
+                if 'application/vnd.google.colaboratory.intrinsic+json' in output.get('data', {}):
+                    if output['data']['application/vnd.google.colaboratory.intrinsic+json'].get('type') == 'dataframe':
+                        output['data'].pop('text/html', None)
+
+    return notebook
+
 def generate_markdown_from_notebook(notebook, output_path):
     frontmatter = generate_frontmatter(notebook)
     md_exporter = MarkdownExporter(exclude_output=False)
-    body, _ = md_exporter.from_filename(f"{notebook['file']}")
+
+    with open(notebook["file"], "r", encoding="utf-8") as f:
+        nb = read(f, as_version=NO_CONVERT)
+    
+    # process the notebook to clean Colab dataframe cells
+    cleaned_nb = clean_colab_dataframe_cells(nb)
+
+    body, _ = md_exporter.from_notebook_node(cleaned_nb)
     body = get_lines(body, start=1)
     
     # remove output images from the markdown: they are not handled properly
