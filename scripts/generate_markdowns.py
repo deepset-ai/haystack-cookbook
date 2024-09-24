@@ -1,6 +1,7 @@
 import argparse
 from pathlib import Path
 from subprocess import check_output
+import re
 
 import tomllib
 from nbconvert import MarkdownExporter
@@ -46,9 +47,14 @@ topics: {notebook.get("topics", False)}
 
 def generate_markdown_from_notebook(notebook, output_path):
     frontmatter = generate_frontmatter(notebook)
-    md_exporter = MarkdownExporter(exclude_output=True)
+    md_exporter = MarkdownExporter(exclude_output=False)
     body, _ = md_exporter.from_filename(f"{notebook['file']}")
     body = get_lines(body, start=1)
+    
+    # remove output images from the markdown: they are not handled properly
+    img_pattern=r'^!\[png\]\(.*\.png\)$'
+    body = re.sub(img_pattern, '', body, flags=re.MULTILINE)
+
     print(f"Processing {notebook['file']}")
     filename = notebook["file"].stem
     with open(f"{output_path}/{filename}.md", "w", encoding="utf-8") as f:
@@ -80,7 +86,7 @@ if __name__ == "__main__":
         data = {
             "file": root_path / "notebooks" / cookbook_data["notebook"],
             "title": cookbook_data["title"],
-            "colab": f"{index_data["config"]["colab"]}/{cookbook_data['notebook']}",
+            "colab": f"{index_data['config']['colab']}/{cookbook_data['notebook']}",
             "featured": cookbook_data.get("featured", False),
             "experimental": cookbook_data.get("experimental", False),
             "discuss": cookbook_data.get("discuss", False),
