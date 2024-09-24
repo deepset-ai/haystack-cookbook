@@ -147,7 +147,7 @@ notebook = "prometheus2_evaluation.ipynb"
 topics = ["Evaluation"]
 
 [[cookbook]]
-title = "Advance Prompt Customization for Anthropic"
+title = "Advanced Prompt Customization for Anthropic"
 notebook = "prompt_customization_for_Anthropic.ipynb"
 topics = ["Customization", "Prompting"]
 
@@ -238,3 +238,10 @@ topics = ["Advanced Retrieval", "RAG", "Agents"]
 title = "Analyze Your Instagram Comments’ Vibe with Apify and Haystack"
 notebook = "apify_haystack_instagram_comments_analysis.ipynb"
 topics = ["Prompting", "Data Scraping"]
+
+[[cookbook]]
+title = "Tools support"
+notebook = "tools_support.ipynb"
+topics = ["Function Calling", "Chat", "Agents"]
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
