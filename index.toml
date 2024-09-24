@@ -16,6 +16,7 @@ topics = ["RAG"]
 [[cookbook]]
 title = "RAG: Extract and use website content for question answering with Apify-Haystack integration"
 notebook = "apify_haystack_rag.ipynb"
+new = true
 topics = ["RAG", "Web-QA"]
 
 [[cookbook]]
