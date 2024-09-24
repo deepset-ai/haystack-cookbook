@@ -16,6 +16,7 @@ topics = ["RAG"]
 [[cookbook]]
 title = "RAG: Extract and use website content for question answering with Apify-Haystack integration"
 notebook = "apify_haystack_rag.ipynb"
+new = true
 topics = ["RAG", "Web-QA"]
 
 [[cookbook]]
@@ -28,6 +29,7 @@ title = "Improving Retrieval with Auto-Merging and Hierarchical Document Retriev
 notebook = "auto_merging_retriever.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
 experimental = true
+new = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/78"
 
 [[cookbook]]
@@ -232,6 +234,7 @@ topics = ["RAG"]
 [[cookbook]]
 title = "Advanced RAG: Query Decomposition and Reasoning"
 notebook = "query_decomposition.ipynb"
+new = true
 topics = ["Advanced Retrieval", "RAG", "Agents"]
 
 [[cookbook]]
@@ -244,4 +247,5 @@ title = "Define & Run Tools "
 notebook = "tools_support.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
 experimental = true
+new = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
