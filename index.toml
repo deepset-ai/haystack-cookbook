@@ -255,3 +255,15 @@ title = "Agentic RAG with Llama 3.2 3B"
 notebook = "llama32_agentic_rag.ipynb"
 topics = ["RAG", "Agents", "Web-QA"]
 new = true
+
+[[cookbook]]
+title = "Trace a Haystack Pipeline with Arize Phoenix"
+notebook = "arize_phoenix_tracing_haystack.ipynb"
+topics = ["Observability"]
+new = true
+
+[[cookbook]]
+title = "Evaluate RAG with Arize Phoenix"
+notebook = "arize_phoenix_evaluate_haystack_rag.ipynb"
+topics = ["Observability", "Evaluation", "RAG"]
+new = true
