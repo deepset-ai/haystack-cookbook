@@ -249,3 +249,9 @@ topics = ["Function Calling", "Chat", "Agents"]
 experimental = true
 new = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
+
+[[cookbook]]
+title = "Agentic RAG with Llama 3.2 3B"
+notebook = "llama32_agentic_rag.ipynb"
+topics = ["RAG", "Agents", "Web-QA"]
+new = true
