@@ -255,3 +255,9 @@ title = "Agentic RAG with Llama 3.2 3B"
 notebook = "llama32_agentic_rag.ipynb"
 topics = ["RAG", "Agents", "Web-QA"]
 new = true
+
+[[cookbook]]
+title = "Trace and Evaluate an Agent with Arize Phoenix"
+notebook = "arize_phoenix_tracing_and_evaluating_an_agent.ipynb"
+topics = ["Observability", "Evaluation", "Agents"]
+new = true
