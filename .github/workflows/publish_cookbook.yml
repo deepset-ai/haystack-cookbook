@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "notebook/*.ipynb"
+      - "notebooks/*.ipynb"
       - "index.toml"
 
 jobs:
