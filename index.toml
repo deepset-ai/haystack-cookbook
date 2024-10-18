@@ -261,3 +261,10 @@ title = "Advanced RAG: Automated Structured Metadata Enrichment"
 notebook = "metadata_enrichment.ipynb"
 new = true
 topics = ["Advanced Retrieval", "RAG", "Metadata"]
+
+[[cookbook]]
+title = "Newsletter Sending Agent with Experimental Haystack Tools"
+notebook = "newsletter-agent.ipynb"
+new = true
+experimental = true
+topics = ["Function Calling", "Chat", "Agents"]
