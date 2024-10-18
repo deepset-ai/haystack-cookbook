@@ -266,3 +266,4 @@ notebook = "newsletter-agent.ipynb"
 new = true
 experimental = true
 topics = ["Function Calling", "Chat", "Agents"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
