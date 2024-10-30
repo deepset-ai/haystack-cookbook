@@ -267,3 +267,9 @@ new = true
 experimental = true
 topics = ["Function Calling", "Chat", "Agents"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
+
+[[cookbook]]
+title = "Enhanced RAG with NVIDIA NIM Rankers"
+notebook = "enhanced_rag_with_nvidia_nim_rankers.ipynb"
+new = true
+topics = ["RAG", "Advanced Retrieval"]
