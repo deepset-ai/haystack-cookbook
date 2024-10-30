@@ -267,3 +267,11 @@ new = true
 experimental = true
 topics = ["Function Calling", "Chat", "Agents"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
+
+[[cookbook]]
+title = "Evaluating AI with Haystack"
+notebook = "evaluating_ai_with_haystack.ipynb"
+new = true
+experimental = true
+topics = ["Evaluation"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
