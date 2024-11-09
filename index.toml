@@ -275,3 +275,8 @@ new = true
 experimental = true
 topics = ["Evaluation"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
+
+[[cookbook]]
+title = "Web-Enhanced Self-Reflecting Agent"
+notebook = "web_enhanced_self_reflecting_agent.ipynb"
+topics = ["Agents"]
