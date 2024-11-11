@@ -232,7 +232,6 @@ topics = ["RAG"]
 [[cookbook]]
 title = "Advanced RAG: Query Decomposition and Reasoning"
 notebook = "query_decomposition.ipynb"
-new = true
 topics = ["Advanced Retrieval", "RAG", "Agents"]
 
 [[cookbook]]
@@ -252,7 +251,6 @@ discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
 title = "Agentic RAG with Llama 3.2 3B"
 notebook = "llama32_agentic_rag.ipynb"
 topics = ["RAG", "Agents", "Web-QA"]
-new = true
 
 [[cookbook]]
 title = "Advanced RAG: Automated Structured Metadata Enrichment"
@@ -277,6 +275,13 @@ topics = ["Evaluation"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
 
 [[cookbook]]
+title = "Multimodal Agent with fastRAG and Haystack"
+notebook = "multimodal_agent_with_fastrag_haystack.ipynb"
+new = true
+topics = ["Multimodal", "Agents"]
+
+[[cookbook]]
 title = "Web-Enhanced Self-Reflecting Agent"
 notebook = "web_enhanced_self_reflecting_agent.ipynb"
 topics = ["Agents"]
+
