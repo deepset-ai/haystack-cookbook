@@ -279,3 +279,9 @@ title = "Multimodal Agent with fastRAG and Haystack"
 notebook = "multimodal_agent_with_fastrag_haystack.ipynb"
 new = true
 topics = ["Multimodal", "Agents"]
+
+[[cookbook]]
+title = "Web-Enhanced Self-Reflecting Agent"
+notebook = "web_enhanced_self_reflecting_agent.ipynb"
+topics = ["Agents"]
+
