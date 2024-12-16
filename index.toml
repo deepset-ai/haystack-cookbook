@@ -255,7 +255,6 @@ topics = ["RAG", "Agents", "Web-QA"]
 [[cookbook]]
 title = "Advanced RAG: Automated Structured Metadata Enrichment"
 notebook = "metadata_enrichment.ipynb"
-new = true
 topics = ["Advanced Retrieval", "RAG", "Metadata"]
 
 [[cookbook]]
@@ -269,7 +268,6 @@ discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
 [[cookbook]]
 title = "Evaluating AI with Haystack"
 notebook = "evaluating_ai_with_haystack.ipynb"
-new = true
 experimental = true
 topics = ["Evaluation"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
@@ -291,3 +289,11 @@ notebook = "swarm.ipynb"
 new = true
 experimental = true
 topics = ["Function Calling", "Chat", "Agents"]
+
+[[cookbook]]
+title = "Running Haystack Pipelines in Asynchronous Environments"
+notebook = "async_pipeline.ipynb"
+new = true
+experimental = true
+topics = ["Async"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/152"
