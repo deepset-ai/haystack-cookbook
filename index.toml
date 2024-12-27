@@ -139,6 +139,7 @@ title = "Invoking APIs with OpenAPITool"
 notebook = "openapitool.ipynb"
 topics = ["Function Calling"]
 experimental = true
+outdated = true
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/79"
 
 [[cookbook]]
