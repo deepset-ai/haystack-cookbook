@@ -286,7 +286,6 @@ topics = ["Agents"]
 title = "Create a Swarm of Agents"
 notebook = "swarm.ipynb"
 new = true
-experimental = true
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
