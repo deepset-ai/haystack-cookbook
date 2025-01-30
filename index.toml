@@ -72,6 +72,7 @@ topics = ["Advanced Retrieval", "Metadata"]
 title = "Function Calling with OpenAIChatGenerator"
 notebook = "function_calling_with_OpenAIChatGenerator.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
+outdated = true
 
 [[cookbook]]
 title = "Build with Gemma and Haystack 2.x"
