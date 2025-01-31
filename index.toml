@@ -259,7 +259,7 @@ notebook = "metadata_enrichment.ipynb"
 topics = ["Advanced Retrieval", "RAG", "Metadata"]
 
 [[cookbook]]
-title = "Newsletter Sending Agent with Experimental Haystack Tools"
+title = "Newsletter Sending Agent with Tools"
 notebook = "newsletter-agent.ipynb"
 new = true
 topics = ["Function Calling", "Chat", "Agents"]
