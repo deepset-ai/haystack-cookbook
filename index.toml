@@ -301,3 +301,9 @@ title = "RAG: Web Search and Analysis with Apify and Haystack"
 notebook = "apify_haystack_rag_web_browser.ipynb"
 topics = ["Web-QA", "Data Scraping", "RAG"]
 new = true
+
+[[cookbook]]
+title = "Trace and Evaluate an Agent with Arize Phoenix"
+notebook = "arize_phoenix_tracing_and_evaluating_an_agent.ipynb"
+topics = ["Observability", "Evaluation", "Agents"]
+new = true
