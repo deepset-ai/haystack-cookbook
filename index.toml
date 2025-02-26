@@ -300,4 +300,11 @@ discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/152"
 title = "RAG: Web Search and Analysis with Apify and Haystack"
 notebook = "apify_haystack_rag_web_browser.ipynb"
 topics = ["Web-QA", "Data Scraping", "RAG"]
+
+[[cookbook]]
+title = "Build a GitHub Issue Resolver Agent"
+notebook = "github_issue_resolver_agent.ipynb"
 new = true
+experimental = true
+topics = ["Function Calling", "Agents"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/209"
