@@ -292,9 +292,7 @@ topics = ["Function Calling", "Chat", "Agents"]
 title = "Running Haystack Pipelines in Asynchronous Environments"
 notebook = "async_pipeline.ipynb"
 new = true
-experimental = true
 topics = ["Async"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/152"
 
 [[cookbook]]
 title = "RAG: Web Search and Analysis with Apify and Haystack"
