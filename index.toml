@@ -301,3 +301,9 @@ title = "RAG: Web Search and Analysis with Apify and Haystack"
 notebook = "apify_haystack_rag_web_browser.ipynb"
 topics = ["Web-QA", "Data Scraping", "RAG"]
 new = true
+
+[[cookbook]]
+title = "Building an Interactive Feedback Review Agent with Azure AI Search and Haystack"
+notebook = "feedback-analysis-agent-with-AzureAISearch.ipynb"
+topics = ["AzureAISearch", "Agents", "RAG"]
+new = true
