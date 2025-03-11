@@ -75,7 +75,7 @@ topics = ["Function Calling", "Chat", "Agents"]
 outdated = true
 
 [[cookbook]]
-title = "Build with Gemma and Haystack 2.x"
+title = "Build with Gemma and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
@@ -163,14 +163,6 @@ title = "Advanced RAG: Query Expansion"
 notebook = "query-expansion.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
 
-
-[[cookbook]]
-title = "Evaluating RAG Pipelines with EvaluationHarness"
-notebook = "rag_eval_harness.ipynb"
-topics = ["Evaluation"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
-
 [[cookbook]]
 title = "RAG Pipeline Evaluation Using DeepEval"
 notebook = "rag_eval_deep_eval.ipynb"
@@ -222,12 +214,12 @@ notebook = "vertexai-gemini-examples.ipynb"
 topics = ["Function Calling", "Multimodal"]
 
 [[cookbook]]
-title = "Use the ⚡ vLLM inference engine in Haystack 2.x"
+title = "Use the ⚡ vLLM inference engine with Haystack"
 notebook = "vllm_inference_engine.ipynb"
 topics = ["Model Serving"]
 
 [[cookbook]]
-title = "🪁 RAG pipelines with Haystack 2.0 + Zephyr 7B Beta"
+title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
 notebook = "zephyr-7b-beta-for-rag.ipynb"
 topics = ["RAG"]
 
@@ -292,18 +284,33 @@ topics = ["Function Calling", "Chat", "Agents"]
 title = "Running Haystack Pipelines in Asynchronous Environments"
 notebook = "async_pipeline.ipynb"
 new = true
-experimental = true
 topics = ["Async"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/152"
 
 [[cookbook]]
 title = "RAG: Web Search and Analysis with Apify and Haystack"
 notebook = "apify_haystack_rag_web_browser.ipynb"
 topics = ["Web-QA", "Data Scraping", "RAG"]
+
+[[cookbook]]
+title = "Build a GitHub Issue Resolver Agent"
+notebook = "github_issue_resolver_agent.ipynb"
 new = true
+experimental = true
+topics = ["Function Calling", "Agents"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/209"
+
+[[cookbook]]
+title = "Extracting Metadata with an LLM"
+notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
+new = true
+topics = ["Metadata"]
 
 [[cookbook]]
 title = "Building an Interactive Feedback Review Agent with Azure AI Search and Haystack"
 notebook = "feedback-analysis-agent-with-AzureAISearch.ipynb"
-topics = ["AzureAISearch", "Agents", "RAG"]
 new = true
+topics = ["AzureAISearch", "Agents", "RAG"]
+
+
+
+
