@@ -75,7 +75,7 @@ topics = ["Function Calling", "Chat", "Agents"]
 outdated = true
 
 [[cookbook]]
-title = "Build with Gemma and Haystack 2.x"
+title = "Build with Gemma and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
@@ -222,12 +222,12 @@ notebook = "vertexai-gemini-examples.ipynb"
 topics = ["Function Calling", "Multimodal"]
 
 [[cookbook]]
-title = "Use the ⚡ vLLM inference engine in Haystack 2.x"
+title = "Use the ⚡ vLLM inference engine with Haystack"
 notebook = "vllm_inference_engine.ipynb"
 topics = ["Model Serving"]
 
 [[cookbook]]
-title = "🪁 RAG pipelines with Haystack 2.0 + Zephyr 7B Beta"
+title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
 notebook = "zephyr-7b-beta-for-rag.ipynb"
 topics = ["RAG"]
 
@@ -306,3 +306,9 @@ new = true
 experimental = true
 topics = ["Function Calling", "Agents"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/209"
+
+[[cookbook]]
+title = "Extracting Metadata with an LLM"
+notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
+new = true
+topics = ["Metadata"]
