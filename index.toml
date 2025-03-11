@@ -163,14 +163,6 @@ title = "Advanced RAG: Query Expansion"
 notebook = "query-expansion.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
 
-
-[[cookbook]]
-title = "Evaluating RAG Pipelines with EvaluationHarness"
-notebook = "rag_eval_harness.ipynb"
-topics = ["Evaluation"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
-
 [[cookbook]]
 title = "RAG Pipeline Evaluation Using DeepEval"
 notebook = "rag_eval_deep_eval.ipynb"
