@@ -306,3 +306,9 @@ new = true
 experimental = true
 topics = ["Function Calling", "Agents"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/209"
+
+[[cookbook]]
+title = "Extracting Metadata with an LLM"
+notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
+new = true
+topics = ["Metadata"]
