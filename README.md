@@ -1,7 +1,7 @@
 # 👩🏻‍🍳 Haystack Cookbook
 
 <div align="center">
-  <a href="https://haystack.deepset.ai/"><img src="https://github.com/deepset-ai/haystack/blob/main/docs/img/banner_20.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset. Haystack 2.0 is live 🎉' Abstract green and yellow diagrams in the background."></a>
+  <a href="https://haystack.deepset.ai/"><img src="https://github.com/deepset-ai/haystack/blob/main/docs/img/banner.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset. Haystack 2.0 is live 🎉' Abstract green and yellow diagrams in the background."></a>
 </div>
 
 # 🧑‍🍳🍳Discover The Haystack Cookbook [here](https://haystack.deepset.ai/cookbook)
@@ -15,8 +15,6 @@ You can use these examples as guidelines on how to make use of different model p
 To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
 
 For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
-
-**Note:** Unless '(Haystack 1.x)' is mentioned in the title, all of these examples use Haystack 2.0 onwards.
 
 | Name                                                                                               | Colab|
 |----------------------------------------------------------------------------------------------------| ---- |
@@ -43,7 +41,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | Using AstraDB as a data store in your Haystack pipelines                                           | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/astradb_haystack_integration.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Streaming model explorer: compare how different models handle the same prompt.                     | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/model_explorer_streaming.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Function Calling with OpenAIChatGenerator                                                          | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/function_calling_with_OpenAIChatGenerator.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| Use the vLLM inference engine in Haystack 2.x                                                      | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/vllm_inference_engine.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Use the vLLM inference engine with Haystack                                                      | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/vllm_inference_engine.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Build with Google Gemma: chat and RAG                                                              | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/gemma_chat_rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Optimizing Retrieval with HyDE                                                                     | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/using_hyde_for_improved_retrieval.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | RAG pipeline using FastEmbed for embeddings generation                                             | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/rag_fastembed.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
@@ -68,9 +66,6 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | Define & Run Tools                                                                                 | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/tools_support.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Agentic RAG with Llama 3.2 3B                                                                      | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/llama32_agentic_rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Create a Swarm of Agents                                                                           | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/swarm.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| Cohere for Multilingual QA (Haystack 1.x)                                                          | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/cohere-for-multilingual-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| GPT-4 and Weaviate for Custom Documentation QA (Haystack 1.x)                                      | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/gpt4-weaviate-custom-documentation-qa.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| Whisper Transcriber and Weaviate for YouTube video QA (Haystack 1.x)                               | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
 ## How to Contribute a Cookbook
 
