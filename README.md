@@ -1,7 +1,7 @@
 # 👩🏻‍🍳 Haystack Cookbook
 
 <div align="center">
-  <a href="https://haystack.deepset.ai/"><img src="https://github.com/deepset-ai/haystack/blob/main/docs/img/banner_20.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset. Haystack 2.0 is live 🎉' Abstract green and yellow diagrams in the background."></a>
+  <a href="https://haystack.deepset.ai/"><img src="https://github.com/deepset-ai/haystack/blob/main/docs/img/banner.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset. Haystack 2.0 is live 🎉' Abstract green and yellow diagrams in the background."></a>
 </div>
 
 # 🧑‍🍳🍳Discover The Haystack Cookbook [here](https://haystack.deepset.ai/cookbook)
