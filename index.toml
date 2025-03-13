@@ -304,3 +304,13 @@ title = "Extracting Metadata with an LLM"
 notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
 new = true
 topics = ["Metadata"]
+
+[[cookbook]]
+title = "Building an Interactive Feedback Review Agent with Azure AI Search and Haystack"
+notebook = "feedback-analysis-agent-with-AzureAISearch.ipynb"
+new = true
+topics = ["AzureAISearch", "Agents", "RAG"]
+
+
+
+
