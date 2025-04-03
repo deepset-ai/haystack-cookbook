@@ -295,9 +295,7 @@ topics = ["Web-QA", "Data Scraping", "RAG"]
 title = "Build a GitHub Issue Resolver Agent"
 notebook = "github_issue_resolver_agent.ipynb"
 new = true
-experimental = true
 topics = ["Function Calling", "Agents"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/209"
 
 [[cookbook]]
 title = "Extracting Metadata with an LLM"
