@@ -66,6 +66,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 | Define & Run Tools                                                                                 | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/tools_support.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Agentic RAG with Llama 3.2 3B                                                                      | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/llama32_agentic_rag.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | Create a Swarm of Agents                                                                           | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/swarm.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| Build a GitHub Issue Resolver Agent                                                                | <a href="https://colab.research.google.com/github/deepset-ai/haystack-cookbook/blob/main/notebooks/github_issue_resolver_agent.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
 ## How to Contribute a Cookbook
 
