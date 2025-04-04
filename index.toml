@@ -27,8 +27,6 @@ topics = ["RAG"]
 title = "Improving Retrieval with Auto-Merging and Hierarchical Document Retrieval"
 notebook = "auto_merging_retriever.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/78"
 
 [[cookbook]]
 title = "🧩 Quizzes and Adventures 🏰 with Character Codex and llamafile"
