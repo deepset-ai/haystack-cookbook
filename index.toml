@@ -235,8 +235,6 @@ topics = ["Prompting", "Data Scraping"]
 title = "Define & Run Tools "
 notebook = "tools_support.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
 
 [[cookbook]]
 title = "Agentic RAG with Llama 3.2 3B"
