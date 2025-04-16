@@ -10,13 +10,11 @@ A collection of example notebooks using [Haystack](https://github.com/deepset-ai
 
 These examples can serve as guidelines for using different model providers, vector databases, retrieval techniques, new experimental features, and more with Haystack. Most showcase a specific, small demo.
 
-> 🧑‍🍳 [Guidelines on How to Contribute a Cookbook](#how-to-contribute-a-cookbook)
-
 To learn more about _how_ to use Haystack, please visit our [Docs](https://docs.haystack.deepset.ai/docs) and official [Tutorials](https://haystack.deepset.ai/tutorials).
 
 For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog) useful.
 
-## How to Contribute a Cookbook
+### Contributing to the Haystack Cookbook
 
 If you have an example that uses Haystack, you can add it to this repository by creating a PR. 
 > You can also create a PR directly from Colab by creating a fork of this repository and selecting "Save a Copy to GitHub" on Colab. Once you add your example to your fork, you can create a PR on this repository. 
