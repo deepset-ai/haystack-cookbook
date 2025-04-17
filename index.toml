@@ -82,6 +82,7 @@ title = "Notion RAG with Gradient Models"
 notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
 topics = ["RAG"]
 hidden = true
+sitemap_exclude = true
 
 [[cookbook]]
 title = "Hacker News Summaries with Custom Components"
