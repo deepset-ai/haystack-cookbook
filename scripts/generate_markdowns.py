@@ -28,7 +28,7 @@ def generate_frontmatter(notebook):
 layout: cookbook
 featured_image: /images/cookbook-thumbnail.png
 images: ["/images/cookbook-thumbnail.png"]
-sitemap_exclude: False
+sitemap_exclude: {notebook.get("sitemap_exclude", False)}
 colab: {notebook.get("colab")}
 toc: True
 title: "{notebook["title"]}"

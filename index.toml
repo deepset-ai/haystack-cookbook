@@ -78,12 +78,6 @@ notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Notion RAG with Gradient Models"
-notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
-topics = ["RAG"]
-hidden = true
-
-[[cookbook]]
 title = "Hacker News Summaries with Custom Components"
 notebook = "hackernews-custom-component-rag.ipynb"
 topics = ["RAG", "Customization"]
