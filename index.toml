@@ -191,7 +191,7 @@ notebook = "techcrunch_news_digest_titanml_takeoff.ipynb"
 topics = ["Model Serving", "RAG"]
 
 [[cookbook]]
-title = "Using Hypothetical Document Embeddinga (HyDE) to Improve Retrieval"
+title = "Using Hypothetical Document Embeddings (HyDE) to Improve Retrieval"
 notebook = "using_hyde_for_improved_retrieval.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
 
