@@ -307,5 +307,8 @@ new = true
 topics = ["Advanced Retrieval", "RAG"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
 
-
-
+[[cookbook]]
+title = "Simple Keyword Extraction using OpenAIChatGenerator"
+notebook = "keyword-extraction.ipynb"
+new = true
+topics = ["Keyword Extraction"]
