@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/about-codeowners/ for syntax
+
+# DevRel Team will be the default owner for everything
+# in the repo. Unless a later match takes precedence,
+# @deepset-ai/devrel will be requested for review
+# when someone opens a pull request.
+*                       @deepset-ai/devrel
