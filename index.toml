@@ -243,7 +243,6 @@ topics = ["Advanced Retrieval", "RAG", "Metadata"]
 [[cookbook]]
 title = "Newsletter Sending Agent with Tools"
 notebook = "newsletter-agent.ipynb"
-new = true
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
@@ -256,7 +255,6 @@ discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
 [[cookbook]]
 title = "Multimodal Agent with fastRAG and Haystack"
 notebook = "multimodal_agent_with_fastrag_haystack.ipynb"
-new = true
 topics = ["Multimodal", "Agents"]
 
 [[cookbook]]
@@ -267,13 +265,11 @@ topics = ["Agents"]
 [[cookbook]]
 title = "Create a Swarm of Agents"
 notebook = "swarm.ipynb"
-new = true
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
 title = "Running Haystack Pipelines in Asynchronous Environments"
 notebook = "async_pipeline.ipynb"
-new = true
 topics = ["Async"]
 
 [[cookbook]]
@@ -306,6 +302,12 @@ experimental = true
 new = true
 topics = ["Advanced Retrieval", "RAG"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
+
+[[cookbook]]
+title = "DevOps Support Agent with Human in the Loop"
+notebook = "agent_with_human_in_the_loop.ipynb"
+new = true
+topics = ["Function Calling", "Agents"]
 
 
 
