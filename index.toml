@@ -321,3 +321,4 @@ notebook = "multimodal_intro.ipynb"
 new = true
 experimental = true
 topics = ["Multimodal"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
