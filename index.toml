@@ -49,12 +49,6 @@ notebook = "cohere-v3-for-multilingual-qa.ipynb"
 topics = ["Multilingual RAG"]
 
 [[cookbook]]
-title = "Run Tasks Concurrently Within a Custom Component"
-notebook = "concurrent_tasks.ipynb"
-topics = ["Customization"]
-experimental = true
-
-[[cookbook]]
 title = "Conversational RAG using Memory"
 notebook = "conversational_rag_using_memory.ipynb"
 topics = ["Chat", "RAG", "Agents"]
