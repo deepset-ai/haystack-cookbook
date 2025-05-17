@@ -320,3 +320,9 @@ title = "Evaluate RAG with Arize Phoenix"
 notebook = "arize_phoenix_evaluate_haystack_rag.ipynb"
 topics = ["Observability", "Evaluation", "RAG"]
 new = true
+
+[[cookbook]]
+title = "Evaluate Agents with Arize Phoenix"
+notebook = "arize_phoenix_agent_tracing_and_evaluating.ipynb"
+topics = ["Observability", "Evaluation", "Agents"]
+new = true
