@@ -49,12 +49,6 @@ notebook = "cohere-v3-for-multilingual-qa.ipynb"
 topics = ["Multilingual RAG"]
 
 [[cookbook]]
-title = "Run Tasks Concurrently Within a Custom Component"
-notebook = "concurrent_tasks.ipynb"
-topics = ["Customization"]
-experimental = true
-
-[[cookbook]]
 title = "Conversational RAG using Memory"
 notebook = "conversational_rag_using_memory.ipynb"
 topics = ["Chat", "RAG", "Agents"]
@@ -76,12 +70,6 @@ outdated = true
 title = "Build with Gemma and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
-
-[[cookbook]]
-title = "Notion RAG with Gradient Models"
-notebook = "gradient-embeders-and-generators-for-notion-rag.ipynb"
-topics = ["RAG"]
-hidden = true
 
 [[cookbook]]
 title = "Hacker News Summaries with Custom Components"
@@ -197,7 +185,7 @@ notebook = "techcrunch_news_digest_titanml_takeoff.ipynb"
 topics = ["Model Serving", "RAG"]
 
 [[cookbook]]
-title = "Using Hypothetical Document Embeddinga (HyDE) to Improve Retrieval"
+title = "Using Hypothetical Document Embeddings (HyDE) to Improve Retrieval"
 notebook = "using_hyde_for_improved_retrieval.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
 
@@ -235,8 +223,6 @@ topics = ["Prompting", "Data Scraping"]
 title = "Define & Run Tools "
 notebook = "tools_support.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/98"
 
 [[cookbook]]
 title = "Agentic RAG with Llama 3.2 3B"
@@ -251,7 +237,6 @@ topics = ["Advanced Retrieval", "RAG", "Metadata"]
 [[cookbook]]
 title = "Newsletter Sending Agent with Tools"
 notebook = "newsletter-agent.ipynb"
-new = true
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
@@ -264,7 +249,6 @@ discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
 [[cookbook]]
 title = "Multimodal Agent with fastRAG and Haystack"
 notebook = "multimodal_agent_with_fastrag_haystack.ipynb"
-new = true
 topics = ["Multimodal", "Agents"]
 
 [[cookbook]]
@@ -275,13 +259,11 @@ topics = ["Agents"]
 [[cookbook]]
 title = "Create a Swarm of Agents"
 notebook = "swarm.ipynb"
-new = true
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
 title = "Running Haystack Pipelines in Asynchronous Environments"
 notebook = "async_pipeline.ipynb"
-new = true
 topics = ["Async"]
 
 [[cookbook]]
@@ -307,6 +289,30 @@ notebook = "feedback-analysis-agent-with-AzureAISearch.ipynb"
 new = true
 topics = ["AzureAISearch", "Agents", "RAG"]
 
+[[cookbook]]
+title = "Hybrid RAG Pipeline with Breakpoints"
+notebook = "hybrid_rag_pipeline_with_breakpoints.ipynb"
+experimental = true
+new = true
+topics = ["Advanced Retrieval", "RAG"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
 
+[[cookbook]]
+title = "Simple Keyword Extraction using OpenAIChatGenerator"
+notebook = "keyword-extraction.ipynb"
+new = true
+topics = ["Keyword Extraction"]
 
+[[cookbook]]
+title = "DevOps Support Agent with Human in the Loop"
+notebook = "agent_with_human_in_the_loop.ipynb"
+new = true
+topics = ["Function Calling", "Agents"]
 
+[[cookbook]]
+title = "Introduction to Multimodal Text Generation"
+notebook = "multimodal_intro.ipynb"
+new = true
+experimental = true
+topics = ["Multimodal"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
