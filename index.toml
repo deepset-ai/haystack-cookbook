@@ -280,7 +280,6 @@ topics = ["Function Calling", "Agents"]
 [[cookbook]]
 title = "Extracting Metadata with an LLM"
 notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
-new = true
 topics = ["Metadata"]
 
 [[cookbook]]
@@ -316,3 +315,10 @@ new = true
 experimental = true
 topics = ["Multimodal"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
+
+
+[[cookbook]]
+title = "Trace and Evaluate RAG with Arize Phoenix"
+notebook = "arize_phoenix_evaluate_haystack_rag.ipynb"
+topics = ["Observability", "Evaluation", "RAG"]
+new = true
