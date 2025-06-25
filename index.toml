@@ -316,6 +316,11 @@ experimental = true
 topics = ["Multimodal"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
 
+[[cookbook]]
+title = "Build a GitHub PR Creator Agent"
+notebook = "github_pr_creator_agent.ipynb"
+new = true
+topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
 title = "Trace and Evaluate RAG with Arize Phoenix"
