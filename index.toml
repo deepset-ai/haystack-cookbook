@@ -316,6 +316,11 @@ experimental = true
 topics = ["Multimodal"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
 
+[[cookbook]]
+title = "Build a GitHub PR Creator Agent"
+notebook = "github_pr_creator_agent.ipynb"
+new = true
+topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
 title = "Trace and Evaluate RAG with Arize Phoenix"
@@ -324,7 +329,7 @@ topics = ["Observability", "Evaluation", "RAG"]
 new = true
 
 [[cookbook]]
-title = "Safety and content moderation with Open Language Models"
+title = "AI Guardrails: Content Moderation and Safety with Open Language Models"
 notebook = "safety_moderation_open_lms.ipynb"
-topics = ["Safety", "Evaluation", "RAG"]
+topics = ["Guardrails", "Evaluation", "RAG"]
 new = true
