@@ -147,6 +147,8 @@ topics = ["Customization", "Prompting"]
 [[cookbook]]
 title = "Advanced RAG: Query Expansion"
 notebook = "query-expansion.ipynb"
+experimental = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/346"
 topics = ["Advanced Retrieval", "RAG"]
 
 [[cookbook]]
