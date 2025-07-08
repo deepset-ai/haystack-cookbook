@@ -1,9 +1,11 @@
 name: Test Notebooks
 
 on:
+  pull_request:
   schedule:
     - cron: '0 0 */14 * *'  # Every 14 days at midnight UTC
   workflow_dispatch:
+
 
 jobs:
   test:
