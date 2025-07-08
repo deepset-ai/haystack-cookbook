@@ -162,11 +162,6 @@ notebook = "rag_eval_ragas.ipynb"
 topics = ["Evaluation"]
 
 [[cookbook]]
-title = "RAG Pipeline Evaluation Using UpTrain"
-notebook = "rag_eval_uptrain.ipynb"
-topics = ["Evaluation"]
-
-[[cookbook]]
 title = "RAG Pipeline Using FastEmbed for Embeddings Generation"
 notebook = "rag_fastembed.ipynb"
 topics = ["RAG", "Advanced Retrieval"]
