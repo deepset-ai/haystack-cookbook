@@ -1,0 +1,45 @@
+name: Test Notebooks
+
+on:
+  schedule:
+    - cron: '0 0 */14 * *'  # Every 14 days at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbconvert nbformat papermill
+
+      - name: Run notebooks (using skip file)
+        run: |
+          SKIP_FILE="skip_notebooks"
+          mapfile -t SKIP_LIST < "$SKIP_FILE"
+
+          for notebook in $(find . -name "*.ipynb"); do
+            skip=false
+            for skip_item in "${SKIP_LIST[@]}"; do
+              if [[ "$notebook" == "$skip_item" ]]; then
+                echo "Skipping $notebook"
+                skip=true
+                break
+              fi
+            done
+
+            if ! $skip; then
+              echo "Testing $notebook"
+              papermill "$notebook" /dev/null
+            fi
+          done
