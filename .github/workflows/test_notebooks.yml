@@ -27,7 +27,7 @@ jobs:
 
       - name: Run notebooks (using skip file)
         run: |
-          SKIP_FILE="./skip_notebooks"
+          SKIP_FILE=".github/workflows/skip_notebooks"
           mapfile -t SKIP_LIST < "$SKIP_FILE"
 
           for notebook in $(find . -name "*.ipynb"); do
