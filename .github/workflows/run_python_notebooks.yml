@@ -52,10 +52,14 @@ jobs:
 
             if ! $skip; then
               echo "Converting $notebook to .py"
-              script_path="converted_scripts/$(basename "${notebook%.ipynb}.py")"
-              jupyter nbconvert --to script "$notebook" --output "$script_path"
 
-              echo "Running $script_path"
-              python "$script_path"
+              base_name=$(basename "$notebook" .ipynb)
+              output_path="converted_scripts/$base_name.py"
+
+              jupyter nbconvert --to script "$notebook" --output "$base_name"
+
+              mv "$base_name.py" "$output_path"
+              echo "Running $output_path"
+              python "$output_path"
             fi
           done
