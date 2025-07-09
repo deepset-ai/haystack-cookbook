@@ -10,6 +10,7 @@ on:
 env:
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
   HF_API_TOKEN: ${{ secrets.HUGGINGFACE_API_KEY }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 jobs:
@@ -48,6 +49,8 @@ jobs:
 
             if ! $skip; then
               echo "Testing $notebook"
-              papermill "$notebook" /dev/null
+              papermill "$notebook" /dev/null \
+                -p OPENAI_API_KEY "$OPENAI_API_KEY" \
+                -p GITHUB_TOKEN "$GITHUB_TOKEN"
             fi
           done
