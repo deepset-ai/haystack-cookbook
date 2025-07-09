@@ -1,4 +1,3 @@
-./notebooks/agent_with_human_in_the_loop.ipynb
 ./notebooks/amazon_bedrock_for_documentation_qa.ipynb
 ./notebooks/amazon_sagemaker_and_chroma_for_qa.ipynb
 ./notebooks/apify_haystack_instagram_comments_analysis.ipynb
@@ -7,7 +6,6 @@
 ./notebooks/arize_phoenix_evaluate_haystack_rag.ipynb
 ./notebooks/astradb_haystack_integration.ipynb
 ./notebooks/async_pipeline.ipynb
-
 ./notebooks/charactercodex_llamafile.ipynb
 ./notebooks/chat_with_SQL_3_ways.ipynb
 ./notebooks/chroma-indexing-and-rag-examples.ipynb
