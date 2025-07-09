@@ -54,11 +54,12 @@ jobs:
               echo "Converting $notebook to .py"
 
               base_name=$(basename "$notebook" .ipynb)
+              notebook_dir=$(dirname "$notebook")
               output_path="converted_scripts/$base_name.py"
 
               jupyter nbconvert --to script "$notebook" --output "$base_name"
           
-              mv "$base_name.py" "$output_path"
+              mv "$notebook_dir/$base_name.py" "$output_path"
           
               python "$output_path"
             fi
