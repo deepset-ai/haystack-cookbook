@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      OPENAI_API_KEY: "test"
+      GITHUB_TOKEN: "test"
 
     steps:
       - name: Checkout repo
