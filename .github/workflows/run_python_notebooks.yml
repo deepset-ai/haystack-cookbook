@@ -44,6 +44,8 @@ jobs:
               fi
             done
 
+            export
+
             if ! $skip; then
               echo "Converting $notebook to .py"
 
@@ -57,6 +59,7 @@ jobs:
               
               # strip IPython Magics Before Running
               sed -i '/get_ipython()/d;/^%/d;/^!/d' "$output_path"
+              
               python "$output_path"
             fi
           done
