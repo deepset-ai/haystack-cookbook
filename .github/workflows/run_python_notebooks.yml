@@ -1,0 +1,54 @@
+name: Test Notebooks as Scripts
+
+on:
+  schedule:
+    - cron: '0 0 */14 * *'  # Every 2 weeks
+  workflow_dispatch:
+
+jobs:
+  test-notebooks:
+    runs-on: ubuntu-latest
+
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install nbconvert
+
+      - name: Run notebooks as scripts
+        run: |
+          SKIP_FILE=".github/workflows/skip_notebooks"
+          mapfile -t SKIP_LIST < "$SKIP_FILE"
+
+          mkdir -p converted_scripts
+
+          for notebook in $(find ./notebooks -name "*.ipynb"); do
+            skip=false
+            for skip_item in "${SKIP_LIST[@]}"; do
+              if [[ "$notebook" == "$skip_item" ]]; then
+                echo "Skipping $notebook"
+                skip=true
+                break
+              fi
+            done
+
+            if ! $skip; then
+              echo "Converting $notebook to .py"
+              script_path="converted_scripts/$(basename "${notebook%.ipynb}.py")"
+              jupyter nbconvert --to script "$notebook" --output "$script_path"
+
+              echo "Running $script_path"
+              python "$script_path"
+            fi
+          done
