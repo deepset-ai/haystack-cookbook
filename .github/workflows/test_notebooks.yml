@@ -1,10 +1,14 @@
-name: Test Notebooks
+name: Running Notebooks
 
 on:
   pull_request:
   schedule:
     - cron: '0 0 */14 * *'  # Every 14 days at midnight UTC
   workflow_dispatch:
+
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
 
 jobs:
