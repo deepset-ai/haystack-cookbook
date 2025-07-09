@@ -1,9 +1,16 @@
 name: Test Notebooks as Scripts
 
 on:
+  pull_request:
   schedule:
-    - cron: '0 0 */14 * *'  # Every 2 weeks
+    - cron: '0 0 */14 * *'  # Every 14 days at midnight UTC
   workflow_dispatch:
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  HF_API_TOKEN: ${{ secrets.HUGGINGFACE_API_KEY }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 jobs:
   test-notebooks:
