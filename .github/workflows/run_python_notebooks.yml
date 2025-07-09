@@ -60,7 +60,9 @@ jobs:
               jupyter nbconvert --to script "$notebook" --output "$base_name"
           
               mv "$notebook_dir/$base_name.py" "$output_path"
-          
+              
+              # strip IPython Magics Before Running
+              sed -i '/get_ipython()/d;/^%/d;/^!/d' "$output_path"
               python "$output_path"
             fi
           done
