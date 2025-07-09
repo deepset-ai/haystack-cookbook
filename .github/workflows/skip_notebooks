@@ -27,6 +27,8 @@
 
 ./notebooks/jina-embeddings-v2-legal-analysis-rag.ipynb
 
+./notebooks/llama3_rag.ipynb
+
 ./notebooks/metadata_enrichment.ipynb
 ./notebooks/model_explorer_streaming.ipynb
 ./notebooks/multimodal_agent_with_fastrag_haystack.ipynb
