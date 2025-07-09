@@ -7,9 +7,13 @@ on:
   workflow_dispatch:
 
 env:
-  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-  HF_API_TOKEN: ${{ secrets.HUGGINGFACE_API_KEY }}
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  # HF_API_TOKEN: ${{ secrets.HUGGINGFACE_API_KEY }}
+  # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  OPENAI_API_KEY: "test"
+  HF_API_TOKEN: "test"
+  GITHUB_TOKEN: "test"
+
 
 
 jobs:
