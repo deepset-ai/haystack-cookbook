@@ -58,8 +58,8 @@ jobs:
 
               jupyter nbconvert --to script "$notebook" --output "$base_name"
           
-              ls converted_scripts
-
-              python "$base_name"
+              mv "$base_name.py" "$output_path"
+          
+              python "$output_path"
             fi
           done
