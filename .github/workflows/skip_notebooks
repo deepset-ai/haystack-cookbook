@@ -7,7 +7,7 @@
 ./notebooks/arize_phoenix_evaluate_haystack_rag.ipynb
 ./notebooks/astradb_haystack_integration.ipynb
 ./notebooks/async_pipeline.ipynb
-./notebooks/auto_merging_retriever.ipynb
+
 ./notebooks/charactercodex_llamafile.ipynb
 ./notebooks/chat_with_SQL_3_ways.ipynb
 ./notebooks/chroma-indexing-and-rag-examples.ipynb
