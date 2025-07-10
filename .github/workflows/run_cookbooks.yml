@@ -67,9 +67,7 @@ jobs:
 
       - name: Convert notebook to Python
         run: |
-          # NOTEBOOK="auto_merging_retriever"
-          # jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/${{ matrix.notebook }}.ipynb
-          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/auto_merging_retriever.ipynb
+          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/${{ matrix.notebook }}.ipynb
 
       - name: Run the converted notebook
         run: |

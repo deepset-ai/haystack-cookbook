@@ -60,4 +60,8 @@ if __name__ == "__main__":
                 }
             )
 
-    print(json.dumps(matrix))
+    # print(json.dumps(matrix))
+    # Debugging only
+    print(json.dumps([{"notebook": "auto_merging_retriever", "dependencies": []}]))
+
+
