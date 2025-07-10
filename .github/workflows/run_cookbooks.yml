@@ -24,6 +24,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # Get cookbooks
+          pip install requests
           NOTEBOOKS=$(python ./scripts/generate_matrix.py --include-main)
           echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
 

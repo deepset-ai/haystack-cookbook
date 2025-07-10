@@ -1,6 +1,7 @@
 import argparse
 import json
 import re
+import requests
 
 import tomllib
 
@@ -9,10 +10,25 @@ def read_index(path):
     with open(path, "rb") as f:
         return tomllib.load(f)
 
+def get_latest_stable_haystack_version():
+    url = "https://hub.docker.com/v2/repositories/deepset/haystack/tags/?page_size=25"
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an error for bad responses
+    tags = response.json()
+
+    if tags and tags.get('results'):
+        # filter out tags that include 'main'
+        stable_tags = [tag for tag in tags['results'] if 'main' not in tag['name']]
+        if stable_tags:
+            # assuming the first tag is the latest stable version
+            latest_stable_tag = stable_tags[0]['name']
+            return latest_stable_tag
+
+    return None
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        usage="""python generate_matrix.py --haystack-version v1.18.1"""
+        usage="""python generate_matrix.py"""
     )
     parser.add_argument("--index", dest="index", default="index.toml")
     parser.add_argument("--notebooks", dest="notebooks", nargs="+", default=[])
@@ -51,17 +67,22 @@ if __name__ == "__main__":
         )
 
         if args.main and "haystack_version" not in tutorial:
-            # If a tutorial doesn't specify a version, we also test it on main
+            # run all notebooks with the latest stable Haystack version
             matrix.append(
                 {
                     "notebook": notebook[:-6],
-                    "haystack_version": "main",
+                    "haystack_version": get_latest_stable_haystack_version(),
                     "dependencies": tutorial.get("dependencies", []),
                 }
             )
 
     # print(json.dumps(matrix))
     # Debugging only
-    print(json.dumps([{"notebook": "auto_merging_retriever", "dependencies": []}]))
+    print(json.dumps(
+        [{"notebook": "auto_merging_retriever",
+          "haystack_version": get_latest_stable_haystack_version(),
+          "dependencies": []}]
+        )
+    )
 
 
