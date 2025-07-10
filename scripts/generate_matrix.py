@@ -76,12 +76,14 @@ if __name__ == "__main__":
                 }
             )
 
-    # print(json.dumps(matrix))
-    # Debugging only
+    print(json.dumps(matrix))
+
+    # debugging only
     print(json.dumps(
         [{"notebook": "auto_merging_retriever",
           "haystack_version": get_latest_stable_haystack_version(),
-          "dependencies": []}]
+          "dependencies": []},
+         {"notebook": "metadata_extraction_with_llm_metadata_extractor", "dependencies": [], "haystack_version": get_latest_stable_haystack_version()}]
         )
     )
 

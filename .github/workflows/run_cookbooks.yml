@@ -28,7 +28,7 @@ jobs:
           NOTEBOOKS=$(python ./scripts/generate_matrix.py --include-main)
           echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
 
-  run-cookbooks:
+  run-notebooks:
     runs-on: ubuntu-latest
     needs: generate-matrix
     container: deepset/haystack:${{ matrix.haystack_version }}
