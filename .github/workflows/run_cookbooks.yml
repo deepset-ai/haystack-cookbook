@@ -2,8 +2,10 @@ name: Run Haystack Cookbooks
 
 on:
   pull_request:
-    paths:
-      - "notebooks/*.ipynb"
+  schedule:
+    - cron: '0 0 */14 * *'  # Every 14 days at midnight UTC
+  workflow_dispatch:
+
 
 jobs:
   generate-matrix:
