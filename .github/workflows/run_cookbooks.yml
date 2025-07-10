@@ -31,7 +31,7 @@ jobs:
   run-cookbooks:
     runs-on: ubuntu-latest
     needs: generate-matrix
-    container: deepset/haystack:base-${{ matrix.haystack_version }}
+    container: deepset/haystack:${{ matrix.haystack_version }}
 
     strategy:
       fail-fast: false
