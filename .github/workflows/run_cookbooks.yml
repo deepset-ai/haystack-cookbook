@@ -11,7 +11,7 @@ jobs:
   generate-matrix:
     runs-on: ubuntu-latest
     outputs:
-      matrix: ${{ steps.filter.outputs.matrix }}
+      matrix: ${{ steps.generator.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
 
