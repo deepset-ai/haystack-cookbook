@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # Get cookbooks
-          NOTEBOOKS=$(python ./scripts/generate_matrix.py --haystack-version --include-main)
+          NOTEBOOKS=$(python ./scripts/generate_matrix.py --include-main)
           echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
 
       - name: Get changed files
