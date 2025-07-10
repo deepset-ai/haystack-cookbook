@@ -34,6 +34,7 @@ jobs:
 
     strategy:
       fail-fast: false
+      max-parallel: 3
       matrix: ${{ fromJSON(needs.generate-matrix.outputs.matrix) }}
 
     env:
@@ -66,7 +67,7 @@ jobs:
 
       - name: Convert notebook to Python
         run: |
-          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./tutorials/${{ matrix.notebook }}.ipynb
+          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/${{ matrix.notebook }}.ipynb
 
       - name: Run the converted notebook
         run: |
