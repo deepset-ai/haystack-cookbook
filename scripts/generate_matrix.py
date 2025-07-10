@@ -60,4 +60,5 @@ if __name__ == "__main__":
                 }
             )
 
-    print(json.dumps(matrix))
+    from pprint import pprint
+    pprint(json.dumps(matrix))
