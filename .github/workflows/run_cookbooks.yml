@@ -67,18 +67,9 @@ jobs:
 
       - name: Convert notebook to Python
         run: |
-          NOTEBOOK="auto_merging_retriever"
-          
-          # Find the notebook file
-          NOTEBOOK_PATH=$(find . -name "${NOTEBOOK}.ipynb" -type f | head -1)
-          
-          if [ -z "$NOTEBOOK_PATH" ]; then
-            echo "Error: Notebook ${NOTEBOOK}.ipynb not found"
-            exit 1
-          fi
-          
-          echo "Found notebook at: $NOTEBOOK_PATH"
-          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/${{ matrix.notebook }}.ipynb
+          # NOTEBOOK="auto_merging_retriever"
+          # jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/${{ matrix.notebook }}.ipynb
+          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./notebooks/auto_merging_retriever.ipynb
 
       - name: Run the converted notebook
         run: |
