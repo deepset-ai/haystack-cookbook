@@ -76,18 +76,23 @@ if __name__ == "__main__":
                 }
             )
 
-    # print(json.dumps(matrix))
+    print(json.dumps(matrix))
+
+    latest_haystack = get_latest_stable_haystack_version()
 
     # debugging only
     notebooks = [
         {"notebook": "auto_merging_retriever",
-         "haystack_version": get_latest_stable_haystack_version(),
+         "haystack_version": latest_haystack,
           "dependencies": []
         },
         {"notebook": "metadata_extraction_with_llm_metadata_extractor",
-         "haystack_version": get_latest_stable_haystack_version(),
+         "haystack_version": latest_haystack,
          "dependencies": ["sentence-transformers>=4.1.0"]
-        }
+        },
+        {"notebook": "chat_with_SQL_3_ways",
+         "haystack_version": latest_haystack,
+         "dependencies": []}
     ]
 
     print(json.dumps(notebooks))

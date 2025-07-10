@@ -41,6 +41,7 @@ jobs:
     env:
       HAYSTACK_TELEMETRY_ENABLED: "False"
       # HF_API_TOKEN: ${{ secrets.HF_API_KEY }}
+      # Note: HF_API_TOKEN needs to be unset for notebooks using sentence-transformers
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       SERPERDEV_API_KEY: ${{ secrets.SERPERDEV_API_KEY }}
 
