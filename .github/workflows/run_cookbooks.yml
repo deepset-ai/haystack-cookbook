@@ -26,6 +26,7 @@ jobs:
           # Get cookbooks
           NOTEBOOKS=$(python ./scripts/generate_matrix.py --include-main)
           echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
+          echo NOTEBOOKS: $NOTEBOOKS
 
 #      - name: Get changed files
 #        id: files
