@@ -27,6 +27,24 @@ jobs:
           NOTEBOOKS=$(python ./scripts/generate_matrix.py --include-main)
           echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
 
+      - id: filter
+        run: |
+          # Define allowed notebooks
+          ALLOWED_NOTEBOOKS='["auto_merging_retriever"]'
+          
+          # Filter the matrix to only include allowed notebooks
+          FILTERED_MATRIX=$(echo '${{ steps.generator.outputs.matrix }}' | python3 -c "
+            import json
+            import sys
+
+            allowed = $ALLOWED_NOTEBOOKS
+            matrix = json.load(sys.stdin)
+            filtered = [item for item in matrix['include'] if item['notebook'] in allowed]
+            print(json.dumps(filtered))
+            ")
+
+          echo "matrix={\"include\":$FILTERED_MATRIX}" >> "$GITHUB_OUTPUT"
+
   run-cookbooks:
     runs-on: ubuntu-latest
     needs: generate-matrix
