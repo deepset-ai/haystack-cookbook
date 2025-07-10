@@ -1,0 +1,123 @@
+name: Run Haystack Cookbooks
+
+on:
+  pull_request:
+    paths:
+      - "notebooks/*.ipynb"
+
+jobs:
+  generate-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.filter.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - id: generator
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Get cookbooks
+          NOTEBOOKS=$(python ./scripts/generate_matrix.py --haystack-version --include-main)
+          echo "matrix={\"include\":$NOTEBOOKS}" >> "$GITHUB_OUTPUT"
+
+      - name: Get changed files
+        id: files
+        uses: tj-actions/changed-files@v44
+        with:
+          matrix: true
+          files: notebooks/*.ipynb
+          files_ignore: |
+            notebooks/amazon_sagemaker_and_chroma_for_qa.ipynb
+            notebooks/apify_haystack_instagram_comments_analysis.ipynb
+            notebooks/apify_haystack_rag_web_browser.ipynb
+            notebooks/apify_haystack_rag.ipynb
+            notebooks/astradb_haystack_integration.ipynb            
+            notebooks/chat_with_SQL_3_ways.ipynb
+            notebooks/cohere-v3-for-multilingual-qa.ipynb
+            notebooks/conversational_rag_using_memory.ipynb
+            notebooks/extracting_metadata_filters_from_a_user_query.ipynb
+            notebooks/function_calling_with_OpenAIChatGenerator.ipynb
+            notebooks/gemma_chat_rag.ipynb
+            notebooks/github_pr_creator_agent.ipynb
+            notebooks/hackernews-custom-component-rag.ipynb
+            notebooks/haystack-1.x/cohere-for-multilingual-qa.ipynb
+            notebooks/haystack-1.x/gpt4-weaviate-custom-documentation-qa.ipynb
+            notebooks/haystack-1.x/whisper-and-weaviate-for-youtube-rag.ipynb
+            notebooks/hybrid_rag_pipeline_with_breakpoints.ipynb
+            notebooks/hybrid_retrieval_bm42.ipynb
+            notebooks/information_extraction_raven.ipynb
+            notebooks/information-extraction-gorilla.ipynb
+            notebooks/jina-embeddings-v2-legal-analysis-rag.ipynb
+            notebooks/llama3_rag.ipynb
+            notebooks/metadata_enrichment.ipynb
+            notebooks/model_explorer_streaming.ipynb
+            notebooks/multimodal_agent_with_fastrag_haystack.ipynb
+            notebooks/openapitool.ipynb
+            notebooks/prometheus2_evaluation.ipynb
+            notebooks/prompt_customization_for_Anthropic.ipynb
+            notebooks/prompt_optimization_with_dspy.ipynb
+            notebooks/query_decomposition.ipynb
+            notebooks/query-expansion.ipynb
+            notebooks/rag_eval_deep_eval.ipynb
+            notebooks/rag_eval_ragas.ipynb
+            notebooks/rag_eval_uptrain.ipynb
+            notebooks/rag_fastembed.ipynb
+            notebooks/rag-with-nims.ipynb
+            notebooks/safety_moderation_open_lms.ipynb
+            notebooks/sparse_embedding_retrieval.ipynb
+            notebooks/swarm.ipynb
+            notebooks/techcrunch_news_digest_titanml_takeoff.ipynb
+            notebooks/tools_support.ipynb
+            notebooks/using_hyde_for_improved_retrieval.ipynb
+            notebooks/using_speaker_diarization_with_assemblyai.ipynb
+            notebooks/vertexai-gemini-examples.ipynb
+            notebooks/vllm_inference_engine.ipynb
+            notebooks/web_enhanced_self_reflecting_agent.ipynb
+            notebooks/zephyr-7b-beta-for-rag.ipynb
+
+  run-cookbooks:
+    runs-on: ubuntu-latest
+    needs: generate-matrix
+    container: deepset/haystack:base-${{ matrix.haystack_version }}
+
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.generate-matrix.outputs.matrix) }}
+
+    env:
+      HAYSTACK_TELEMETRY_ENABLED: "False"
+      HF_API_TOKEN: ${{ secrets.HF_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SERPERDEV_API_KEY: ${{ secrets.SERPERDEV_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install common dependencies
+        run: |
+          apt-get update && apt-get install -y \
+              build-essential \
+              gcc \
+              libsndfile1 \
+              ffmpeg
+
+          pip install nbconvert ipython
+
+      - name: Install tutorial dependencies
+        if: toJSON(matrix.dependencies) != '[]'
+        run: |
+          pip install "${{ join(matrix.dependencies, '" "')}}"
+
+      - name: Convert notebook to Python
+        run: |
+          jupyter nbconvert --to python --RegexRemovePreprocessor.patterns '%%bash' ./tutorials/${{ matrix.notebook }}.ipynb
+
+      - name: Run the converted notebook
+        run: |
+          python ./notebooks/${{ matrix.notebook }}.py

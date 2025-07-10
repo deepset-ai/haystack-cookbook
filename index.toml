@@ -309,6 +309,7 @@ title = "DevOps Support Agent with Human in the Loop"
 notebook = "agent_with_human_in_the_loop.ipynb"
 new = true
 topics = ["Function Calling", "Agents"]
+dependencies = ["requests"]
 
 [[cookbook]]
 title = "Introduction to Multimodal Text Generation"
