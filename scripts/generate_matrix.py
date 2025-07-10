@@ -86,7 +86,7 @@ if __name__ == "__main__":
         },
         {"notebook": "metadata_extraction_with_llm_metadata_extractor",
          "haystack_version": get_latest_stable_haystack_version(),
-         "dependencies": []
+         "dependencies": ["sentence-transformers>=4.1.0"]
         }
     ]
 
