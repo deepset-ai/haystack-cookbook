@@ -76,7 +76,7 @@ if __name__ == "__main__":
                 }
             )
 
-    print(json.dumps(matrix))
+    # print(json.dumps(matrix))
 
     latest_haystack = get_latest_stable_haystack_version()
 
@@ -92,7 +92,8 @@ if __name__ == "__main__":
         },
         {"notebook": "chat_with_SQL_3_ways",
          "haystack_version": latest_haystack,
-         "dependencies": ["pandas"]}
+         "dependencies": ["pandas"]
+         }
     ]
 
     print(json.dumps(notebooks))
