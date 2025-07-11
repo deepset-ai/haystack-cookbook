@@ -76,11 +76,11 @@ if __name__ == "__main__":
                 }
             )
 
-    # print(json.dumps(matrix))
-
     latest_haystack = get_latest_stable_haystack_version()
 
-    # debugging only
+    # print(json.dumps(matrix))
+    # debugging only -just to run selected cookbooks - uncomment line above and delete below to use dynamically
+    # generated matrix
     notebooks = [
         {"notebook": "auto_merging_retriever",
          "haystack_version": latest_haystack,
@@ -89,11 +89,7 @@ if __name__ == "__main__":
         {"notebook": "metadata_extraction_with_llm_metadata_extractor",
          "haystack_version": latest_haystack,
          "dependencies": ["sentence-transformers>=4.1.0"]
-        },
-        {"notebook": "chat_with_SQL_3_ways",
-         "haystack_version": latest_haystack,
-         "dependencies": ["pandas"]
-         }
+        }
     ]
 
     print(json.dumps(notebooks))
