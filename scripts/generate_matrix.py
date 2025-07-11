@@ -92,7 +92,7 @@ if __name__ == "__main__":
         },
         {"notebook": "chat_with_SQL_3_ways",
          "haystack_version": latest_haystack,
-         "dependencies": []}
+         "dependencies": ["pandas"]}
     ]
 
     print(json.dumps(notebooks))
