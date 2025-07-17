@@ -72,6 +72,11 @@ notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
+title = "Build with Llama Stack and Haystack"
+notebook = "llama_stack_with_tools.ipynb"
+topics = ["Tool"]
+
+[[cookbook]]
 title = "Hacker News Summaries with Custom Components"
 notebook = "hackernews-custom-component-rag.ipynb"
 topics = ["RAG", "Customization"]
