@@ -294,6 +294,15 @@ topics = ["Advanced Retrieval", "RAG"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
 
 [[cookbook]]
+title = "Breakpoint on Agent in a Pipeline"
+notebook = "agent-breakpoints.ipynb"
+experimental = true
+new = true
+topics = ["Agents"]
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
+
+
+[[cookbook]]
 title = "Simple Keyword Extraction using OpenAIChatGenerator"
 notebook = "keyword-extraction.ipynb"
 new = true
