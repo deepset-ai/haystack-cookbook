@@ -74,7 +74,7 @@ topics = ["RAG"]
 [[cookbook]]
 title = "Build with Llama Stack and Haystack Agent"
 notebook = "llama_stack_with_agent.ipynb"
-topics = ["Tool"]
+topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
 title = "Hacker News Summaries with Custom Components"
