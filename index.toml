@@ -72,8 +72,8 @@ notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Build with Llama Stack and Haystack"
-notebook = "llama_stack_with_tools.ipynb"
+title = "Build with Llama Stack and Haystack Agent"
+notebook = "llama_stack_with_agent.ipynb"
 topics = ["Tool"]
 
 [[cookbook]]
