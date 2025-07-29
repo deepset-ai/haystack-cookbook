@@ -321,9 +321,7 @@ topics = ["Function Calling", "Agents"]
 title = "Introduction to Multimodal Text Generation"
 notebook = "multimodal_intro.ipynb"
 new = true
-experimental = true
 topics = ["Multimodal"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/302"
 
 [[cookbook]]
 title = "Build a GitHub PR Creator Agent"
