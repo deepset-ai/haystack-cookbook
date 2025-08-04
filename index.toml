@@ -295,7 +295,6 @@ title = "Hybrid RAG Pipeline with Breakpoints"
 notebook = "hybrid_rag_pipeline_with_breakpoints.ipynb"
 new = true
 topics = ["Advanced Retrieval", "RAG"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/281"
 
 [[cookbook]]
 title = "Breakpoint on Agent in a Pipeline"
