@@ -337,3 +337,9 @@ title = "AI Guardrails: Content Moderation and Safety with Open Language Models"
 notebook = "safety_moderation_open_lms.ipynb"
 topics = ["Guardrails", "Evaluation", "RAG"]
 new = true
+
+[[cookbook]]
+title = "Build Browser Agents with Gemini + Playwright MCP"
+notebook = "browser_agents.ipynb"
+topics = ["Agents", "MCP"]
+new = true
