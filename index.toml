@@ -343,3 +343,9 @@ title = "Build Browser Agents with Gemini + Playwright MCP"
 notebook = "browser_agents.ipynb"
 topics = ["Agents", "MCP"]
 new = true
+
+[[cookbook]]
+title = "Calculating a Hallucination Score with the OpenAIChatGenerator"
+notebook = "hallucination_score_calculator.ipynb"
+topics = ["RAG"]
+new = true
