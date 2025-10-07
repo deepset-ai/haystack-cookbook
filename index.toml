@@ -276,7 +276,6 @@ topics = ["Web-QA", "Data Scraping", "RAG"]
 [[cookbook]]
 title = "Build a GitHub Issue Resolver Agent"
 notebook = "github_issue_resolver_agent.ipynb"
-new = true
 topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
@@ -287,31 +286,26 @@ topics = ["Metadata"]
 [[cookbook]]
 title = "Building an Interactive Feedback Review Agent with Azure AI Search and Haystack"
 notebook = "feedback-analysis-agent-with-AzureAISearch.ipynb"
-new = true
 topics = ["AzureAISearch", "Agents", "RAG"]
 
 [[cookbook]]
 title = "Hybrid RAG Pipeline with Breakpoints"
 notebook = "hybrid_rag_pipeline_with_breakpoints.ipynb"
-new = true
 topics = ["Advanced Retrieval", "RAG"]
 
 [[cookbook]]
 title = "Breakpoint on Agent in a Pipeline"
 notebook = "agent-breakpoints.ipynb"
-new = true
 topics = ["Agents"]
 
 [[cookbook]]
 title = "Simple Keyword Extraction using OpenAIChatGenerator"
 notebook = "keyword-extraction.ipynb"
-new = true
 topics = ["Keyword Extraction"]
 
 [[cookbook]]
 title = "DevOps Support Agent with Human in the Loop"
 notebook = "agent_with_human_in_the_loop.ipynb"
-new = true
 topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
@@ -323,14 +317,12 @@ topics = ["Multimodal"]
 [[cookbook]]
 title = "Build a GitHub PR Creator Agent"
 notebook = "github_pr_creator_agent.ipynb"
-new = true
 topics = ["Function Calling", "Agents"]
 
 [[cookbook]]
 title = "Trace and Evaluate RAG with Arize Phoenix"
 notebook = "arize_phoenix_evaluate_haystack_rag.ipynb"
 topics = ["Observability", "Evaluation", "RAG"]
-new = true
 
 [[cookbook]]
 title = "AI Guardrails: Content Moderation and Safety with Open Language Models"
@@ -348,4 +340,10 @@ new = true
 title = "Calculating a Hallucination Score with the OpenAIChatGenerator"
 notebook = "hallucination_score_calculator.ipynb"
 topics = ["RAG"]
+new = true
+
+[[cookbook]]
+title = "Agent-Powered Retrieval with Haystack"
+notebook = "agent_powered_retrieval.ipynb"
+topics = ["Agents", "Advanced Retrieval", "Metadata"]
 new = true
