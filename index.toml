@@ -352,5 +352,5 @@ new = true
 [[cookbook]]
 title = "Improving Postgres Keyword Search to avoid zero results"
 notebook = "improving_pgvector_keyword_search.ipynb"
-topics = ["Advanced Retrieval", "PgvectorKeywordRetriever","Keyword-based Retriever"]
+topics = ["Advanced Retrieval", "Customization"]
 new = true
