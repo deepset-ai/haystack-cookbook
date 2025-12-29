@@ -14,7 +14,7 @@ notebook = "amazon_sagemaker_and_chroma_for_qa.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "RAG: Extract and use website content for question answering with Apify-Haystack integration"
+title = "Crawl Website Content for Question Answering with Apify"
 notebook = "apify_haystack_rag.ipynb"
 topics = ["RAG", "Web-QA"]
 
