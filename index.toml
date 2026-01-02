@@ -275,6 +275,7 @@ topics = ["Function Calling", "Agents"]
 title = "Extracting Metadata with an LLM"
 notebook = "metadata_extraction_with_llm_metadata_extractor.ipynb"
 topics = ["Metadata"]
+dependencies = ["sentence-transformers>=4.1.0"]
 
 [[cookbook]]
 title = "Building an Interactive Feedback Review Agent with Azure AI Search and Haystack"
@@ -300,6 +301,7 @@ topics = ["Keyword Extraction"]
 title = "DevOps Support Agent with Human in the Loop"
 notebook = "agent_with_human_in_the_loop.ipynb"
 topics = ["Function Calling", "Agents"]
+dependencies = ["requests"]
 
 [[cookbook]]
 title = "Introduction to Multimodal Text Generation"
