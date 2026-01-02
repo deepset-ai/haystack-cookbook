@@ -49,13 +49,6 @@ notebook = "cohere-v3-for-multilingual-qa.ipynb"
 topics = ["Multilingual RAG"]
 
 [[cookbook]]
-title = "Conversational RAG using Memory"
-notebook = "conversational_rag_using_memory.ipynb"
-topics = ["Chat", "RAG", "Agents"]
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/75"
-
-[[cookbook]]
 title = "Extract Metadata Filters from a Query"
 notebook = "extracting_metadata_filters_from_a_user_query.ipynb"
 topics = ["Advanced Retrieval", "Metadata"]
