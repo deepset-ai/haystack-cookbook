@@ -347,3 +347,10 @@ title = "Improving PostgreSQL Keyword Search to Avoid Empty Results"
 notebook = "improving_pgvector_keyword_search.ipynb"
 topics = ["Advanced Retrieval", "Customization"]
 new = true
+
+
+[[cookbook]]
+title = "Domain-Aware UI/UX Reviewer Agent: Custom Tools with Retry and Fallback"
+notebook = "ui_ux_reviewer_agent.ipynb"
+topics = ["Agents", "Customization"]
+new = true
