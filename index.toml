@@ -354,3 +354,9 @@ title = "Domain-Aware UI/UX Reviewer Agent: Custom Tools with Retry and Fallback
 notebook = "ui_ux_reviewer_agent.ipynb"
 topics = ["Agents", "Customization"]
 new = true
+
+[[cookbook]]
+title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB Atlas, and Bright Data"
+notebook = "ai_sales_research_assistant.ipynb"
+new = true
+topics = ["RAG", "Web-QA"]
