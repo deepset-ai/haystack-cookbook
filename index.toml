@@ -354,3 +354,10 @@ title = "Domain-Aware UI/UX Reviewer Agent: Custom Tools with Retry and Fallback
 notebook = "ui_ux_reviewer_agent.ipynb"
 topics = ["Agents", "Customization"]
 new = true
+
+[[cookbook]]
+title = "Using Mem0 Memory Store with Haystack Agents"
+notebook = "memory_store_mem0.ipynb"
+topics = ["Agents", "Chat"]
+experimental = true
+new = true
