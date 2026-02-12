@@ -358,6 +358,6 @@ new = true
 [[cookbook]]
 title = "Using Mem0 Memory Store with Haystack Agents"
 notebook = "memory_store_mem0.ipynb"
-topics = ["Agents", "Chat"]
+topics = ["Agents", "Chat", "Memory"]
 experimental = true
 new = true
