@@ -361,3 +361,4 @@ notebook = "memory_store_mem0.ipynb"
 topics = ["Agents", "Chat", "Memory"]
 experimental = true
 new = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/436"
