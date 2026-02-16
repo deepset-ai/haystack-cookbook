@@ -356,6 +356,14 @@ topics = ["Agents", "Customization"]
 new = true
 
 [[cookbook]]
+title = "Using Mem0 Memory Store with Haystack Agents"
+notebook = "memory_store_mem0.ipynb"
+topics = ["Agents", "Chat", "Memory"]
+experimental = true
+new = true
+discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/436"
+
+[[cookbook]]
 title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB Atlas, and Bright Data"
 notebook = "ai_sales_research_assistant.ipynb"
 new = true
