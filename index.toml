@@ -368,3 +368,9 @@ title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB
 notebook = "ai_sales_research_assistant.ipynb"
 new = true
 topics = ["RAG", "Web-QA"]
+
+[[notebooks]]
+name = "interview_preparation_rag"
+title = "Interview Preparation RAG Pipeline"
+path = "notebooks/interview_preparation_rag.ipynb"
+topics = ["rag", "fastembed", "qdrant", "llm", "interview"]
