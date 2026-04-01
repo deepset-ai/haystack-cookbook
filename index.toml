@@ -368,3 +368,8 @@ title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB
 notebook = "ai_sales_research_assistant.ipynb"
 new = true
 topics = ["RAG", "Web-QA"]
+
+[[cookbook]]
+title = "RAG Pipeline with MiniMax via OpenAI-Compatible API"
+notebook = "rag_with_minimax.ipynb"
+topics = ["RAG"]
