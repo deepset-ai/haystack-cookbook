@@ -203,3 +203,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 .DS_Store
+
+# ChromaDB runtime artifacts
+notebooks/chroma_db_*/

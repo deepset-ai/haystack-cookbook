@@ -368,3 +368,9 @@ title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB
 notebook = "ai_sales_research_assistant.ipynb"
 new = true
 topics = ["RAG", "Web-QA"]
+
+[[cookbook]]
+title = "Advanced Local RAG with ChromaDB, FastEmbed, and Ollama"
+notebook = "advanced_local_rag_chroma_ollama.ipynb"
+new = true
+topics = ["RAG", "Advanced Retrieval", "Vector Databases"]
