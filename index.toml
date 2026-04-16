@@ -62,7 +62,7 @@ outdated = true
 [[cookbook]]
 title = "Build with Gemma and Haystack"
 notebook = "gemma_chat_rag.ipynb"
-topics = ["RAG"]
+topics = ["RAG", "Agents", "Multimodal"]
 
 [[cookbook]]
 title = "Build with Llama Stack and Haystack Agent"
