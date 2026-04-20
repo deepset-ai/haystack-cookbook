@@ -60,7 +60,7 @@ topics = ["Function Calling", "Chat", "Agents"]
 outdated = true
 
 [[cookbook]]
-title = "Build with Gemma and Haystack"
+title = "Build with Gemma 4 and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG", "Agents", "Multimodal"]
 
