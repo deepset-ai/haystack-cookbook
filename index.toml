@@ -63,6 +63,7 @@ outdated = true
 title = "Build with Gemma 4 and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG", "Agents", "Multimodal"]
+new = true
 
 [[cookbook]]
 title = "Build with Llama Stack and Haystack Agent"
@@ -304,7 +305,6 @@ topics = ["Function Calling", "Agents"]
 [[cookbook]]
 title = "Introduction to Multimodal Text Generation"
 notebook = "multimodal_intro.ipynb"
-new = true
 topics = ["Multimodal"]
 
 [[cookbook]]
@@ -321,13 +321,11 @@ topics = ["Observability", "Evaluation", "RAG"]
 title = "AI Guardrails: Content Moderation and Safety with Open Language Models"
 notebook = "safety_moderation_open_lms.ipynb"
 topics = ["Guardrails", "Evaluation", "RAG"]
-new = true
 
 [[cookbook]]
 title = "Build Browser Agents with Gemini + Playwright MCP"
 notebook = "browser_agents.ipynb"
 topics = ["Agents", "MCP"]
-new = true
 
 [[cookbook]]
 title = "Calculating a Hallucination Score with the OpenAIChatGenerator"
