@@ -199,6 +199,7 @@ topics = ["Function Calling", "Multimodal"]
 title = "Use the ⚡ vLLM inference engine with Haystack"
 notebook = "vllm_inference_engine.ipynb"
 topics = ["Model Serving"]
+new = true
 
 [[cookbook]]
 title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
@@ -331,20 +332,17 @@ topics = ["Agents", "MCP"]
 title = "Calculating a Hallucination Score with the OpenAIChatGenerator"
 notebook = "hallucination_score_calculator.ipynb"
 topics = ["RAG"]
-new = true
 
 [[cookbook]]
 title = "Agent-Powered Retrieval with Haystack"
 notebook = "agent_powered_retrieval.ipynb"
 topics = ["Agents", "Advanced Retrieval", "Metadata"]
-new = true
 
 
 [[cookbook]]
 title = "Improving PostgreSQL Keyword Search to Avoid Empty Results"
 notebook = "improving_pgvector_keyword_search.ipynb"
 topics = ["Advanced Retrieval", "Customization"]
-new = true
 
 
 [[cookbook]]
