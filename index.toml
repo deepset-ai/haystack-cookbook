@@ -199,6 +199,7 @@ topics = ["Function Calling", "Multimodal"]
 title = "Use the ⚡ vLLM inference engine with Haystack"
 notebook = "vllm_inference_engine.ipynb"
 topics = ["Model Serving"]
+new = true
 
 [[cookbook]]
 title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
