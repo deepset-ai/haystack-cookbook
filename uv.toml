@@ -1,0 +1,4 @@
+# Exclude package versions published within the last 24 hours to protect against supply chain
+# attacks via compromised dependencies. uv resolves this relative to the current clock at
+# install/lock time, so no manual date updates are needed.
+exclude-newer = "24 hours"
