@@ -222,6 +222,12 @@ notebook = "tools_support.ipynb"
 topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
+title = "Bilig WorkPaper Formula Readback with Haystack"
+notebook = "bilig_workpaper_formula_readback.ipynb"
+topics = ["Function Calling", "Agents", "Customization"]
+new = true
+
+[[cookbook]]
 title = "Agentic RAG with Llama 3.2 3B"
 notebook = "llama32_agentic_rag.ipynb"
 topics = ["RAG", "Agents", "Web-QA"]
