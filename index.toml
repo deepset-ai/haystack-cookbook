@@ -370,3 +370,9 @@ title = "Tabular Data Processing with Prior Labs MCP"
 notebook = "prior_labs_agent.ipynb"
 new = true
 topics = ["Agents", "MCP", "Data Processing"]
+
+[[cookbook]]
+title = "Benchmark Retrieval Strategies with KB Arena before wiring into Haystack"
+notebook = "benchmark_retrieval_strategies_kb_arena.ipynb"
+new = true
+topics = ["Evaluation", "Advanced Retrieval", "RAG"]
