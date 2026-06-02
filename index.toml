@@ -370,3 +370,9 @@ title = "Tabular Data Processing with Prior Labs MCP"
 notebook = "prior_labs_agent.ipynb"
 new = true
 topics = ["Agents", "MCP", "Data Processing"]
+
+[[cookbook]]
+title = "Build a YouTube Transcript RAG Pipeline with Haystack"
+notebook = "youtube_transcript_rag.ipynb"
+topics = ["RAG", "Question-Answering"]
+new = true
