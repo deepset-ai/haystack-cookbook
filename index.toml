@@ -370,3 +370,9 @@ title = "Tabular Data Processing with Prior Labs MCP"
 notebook = "prior_labs_agent.ipynb"
 new = true
 topics = ["Agents", "MCP", "Data Processing"]
+
+[[cookbook]]
+title = "Live-Learning Research Agent with Perplexity (Search + Embeddings + Agent) and Qdrant"
+notebook = "perplexity_live_research_agent.ipynb"
+topics = ["Agents", "RAG", "Web-QA", "Advanced Retrieval"]
+new = true
