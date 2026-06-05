@@ -370,3 +370,9 @@ title = "Tabular Data Processing with Prior Labs MCP"
 notebook = "prior_labs_agent.ipynb"
 new = true
 topics = ["Agents", "MCP", "Data Processing"]
+
+[[cookbook]]
+title = "Agentic Itinerary Planning with OpenStreetMap"
+notebook = "agentic_itinerary_planning_openstreetmap.ipynb"
+new = true
+topics = ["Agents", "OpenStreetMap"]
