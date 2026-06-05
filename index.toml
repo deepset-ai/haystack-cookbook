@@ -106,7 +106,7 @@ notebook = "llama3_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Web QA with Mixtral-8x7B-Instruct-v0.1"
+title = "Web QA with Mistral"
 notebook = "mixtral-8x7b-for-web-qa.ipynb"
 topics = ["Web-QA"]
 
