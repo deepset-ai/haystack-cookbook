@@ -134,6 +134,11 @@ notebook = "prometheus2_evaluation.ipynb"
 topics = ["Evaluation"]
 
 [[cookbook]]
+title = "Ground-Truth Retrieval Evaluation with Recall and MRR"
+notebook = "ground_truth_retrieval_evaluation.ipynb"
+topics = ["Evaluation", "RAG", "Advanced Retrieval"]
+
+[[cookbook]]
 title = "Advanced Prompt Customization for Anthropic"
 notebook = "prompt_customization_for_Anthropic.ipynb"
 topics = ["Customization", "Prompting"]
