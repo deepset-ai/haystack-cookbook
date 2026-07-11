@@ -49,6 +49,12 @@ notebook = "cohere-v3-for-multilingual-qa.ipynb"
 topics = ["Multilingual RAG"]
 
 [[cookbook]]
+title = "Computer-Use Agent with Skills"
+notebook = "computer_use_agent_with_skills.ipynb"
+topics = ["Agents", "Function Calling", "Model Serving"]
+new = true
+
+[[cookbook]]
 title = "Extract Metadata Filters from a Query"
 notebook = "extracting_metadata_filters_from_a_user_query.ipynb"
 topics = ["Advanced Retrieval", "Metadata"]
