@@ -9,29 +9,14 @@ notebook = "amazon_bedrock_for_documentation_qa.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Question Answering with Amazon Sagemaker, Chroma and Haystack"
-notebook = "amazon_sagemaker_and_chroma_for_qa.ipynb"
-topics = ["RAG"]
-
-[[cookbook]]
 title = "Crawl Website Content for Question Answering with Apify"
 notebook = "apify_haystack_rag.ipynb"
 topics = ["RAG", "Web-QA"]
 
 [[cookbook]]
-title = "AstraDB 🤝 Haystack Integration"
-notebook = "astradb_haystack_integration.ipynb"
-topics = ["RAG"]
-
-[[cookbook]]
 title = "Improving Retrieval with Auto-Merging and Hierarchical Document Retrieval"
 notebook = "auto_merging_retriever.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
-
-[[cookbook]]
-title = "🧩 Quizzes and Adventures 🏰 with Character Codex and llamafile"
-notebook = "charactercodex_llamafile.ipynb"
-topics = ["Model Serving", "Chat"]
 
 [[cookbook]]
 title = "Chat With Your SQL Database"
@@ -42,11 +27,6 @@ topics = ["Chat", "SQL", "Agents"]
 title = "Chroma Indexing and RAG Examples"
 notebook = "chroma-indexing-and-rag-examples.ipynb"
 topics = ["RAG", "Vector Databases"]
-
-[[cookbook]]
-title = "Cohere v3 for Multilingual QA"
-notebook = "cohere-v3-for-multilingual-qa.ipynb"
-topics = ["Multilingual RAG"]
 
 [[cookbook]]
 title = "Computer-Use Agent with Skills"
@@ -60,46 +40,10 @@ notebook = "extracting_metadata_filters_from_a_user_query.ipynb"
 topics = ["Advanced Retrieval", "Metadata"]
 
 [[cookbook]]
-title = "Function Calling with OpenAIChatGenerator"
-notebook = "function_calling_with_OpenAIChatGenerator.ipynb"
-topics = ["Function Calling", "Chat", "Agents"]
-outdated = true
-
-[[cookbook]]
 title = "Build with Gemma 4 and Haystack"
 notebook = "gemma_chat_rag.ipynb"
 topics = ["RAG", "Agents", "Multimodal"]
 new = true
-
-[[cookbook]]
-title = "Build with Llama Stack and Haystack Agent"
-notebook = "llama_stack_with_agent.ipynb"
-topics = ["Function Calling", "Agents"]
-
-[[cookbook]]
-title = "Hacker News Summaries with Custom Components"
-notebook = "hackernews-custom-component-rag.ipynb"
-topics = ["RAG", "Customization"]
-
-[[cookbook]]
-title = "Hybrid Retrieval with BM42"
-notebook = "hybrid_retrieval_bm42.ipynb"
-topics = ["Advanced Retrieval"]
-
-[[cookbook]]
-title = "Improve Retrieval by Embedding Meaningful Metadata"
-notebook = "improve-retrieval-by-embedding-metadata.ipynb"
-topics = ["Advanced Retrieval", "Metadata"]
-
-[[cookbook]]
-title = "🐦‍⬛ Information Extraction with Raven"
-notebook = "information_extraction_raven.ipynb"
-topics = ["Function Calling"]
-
-[[cookbook]]
-title = "🦍 Information Extraction with Gorilla"
-notebook = "information-extraction-gorilla.ipynb"
-topics = ["Function Calling"]
 
 [[cookbook]]
 title = "Legal Document Analysis with jina-embeddings-v2-base-en"
@@ -112,37 +56,14 @@ notebook = "llama3_rag.ipynb"
 topics = ["RAG"]
 
 [[cookbook]]
-title = "Web QA with Mixtral-8x7B-Instruct-v0.1"
-notebook = "mixtral-8x7b-for-web-qa.ipynb"
-topics = ["Web-QA"]
-
-[[cookbook]]
-title = "Streaming Model Explorer"
-notebook = "model_explorer_streaming.ipynb"
-topics = ["Discovery"]
-
-[[cookbook]]
 title = "Multilingual RAG on a Podcast"
 notebook = "multilingual_rag_podcast.ipynb"
 topics = ["Audio", "Multilingual RAG"]
 
 [[cookbook]]
-title = "Invoking APIs with OpenAPITool"
-notebook = "openapitool.ipynb"
-topics = ["Function Calling"]
-experimental = true
-outdated = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/79"
-
-[[cookbook]]
 title = "RAG Evaluation with Prometheus 2"
 notebook = "prometheus2_evaluation.ipynb"
 topics = ["Evaluation"]
-
-[[cookbook]]
-title = "Advanced Prompt Customization for Anthropic"
-notebook = "prompt_customization_for_Anthropic.ipynb"
-topics = ["Customization", "Prompting"]
 
 [[cookbook]]
 title = "Prompt Optimization with DSPy"
@@ -182,24 +103,9 @@ notebook = "sparse_embedding_retrieval.ipynb"
 topics = ["RAG", "Advanced Retrieval"]
 
 [[cookbook]]
-title = "Getting a Daily Digest From Tech Websites"
-notebook = "techcrunch_news_digest_titanml_takeoff.ipynb"
-topics = ["Model Serving", "RAG"]
-
-[[cookbook]]
 title = "Using Hypothetical Document Embeddings (HyDE) to Improve Retrieval"
 notebook = "using_hyde_for_improved_retrieval.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
-
-[[cookbook]]
-title = "Speaker Diarization with AssemblyAI"
-notebook = "using_speaker_diarization_with_assemblyai.ipynb"
-topics = ["Audio"]
-
-[[cookbook]]
-title = "Function Calling and Multimodal QA with Gemini"
-notebook = "vertexai-gemini-examples.ipynb"
-topics = ["Function Calling", "Multimodal"]
 
 [[cookbook]]
 title = "Use the ⚡ vLLM inference engine with Haystack"
@@ -208,24 +114,9 @@ topics = ["Model Serving"]
 new = true
 
 [[cookbook]]
-title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
-notebook = "zephyr-7b-beta-for-rag.ipynb"
-topics = ["RAG"]
-
-[[cookbook]]
 title = "Advanced RAG: Query Decomposition and Reasoning"
 notebook = "query_decomposition.ipynb"
 topics = ["Advanced Retrieval", "RAG", "Agents"]
-
-[[cookbook]]
-title = "Analyze Your Instagram Comments’ Vibe with Apify and Haystack"
-notebook = "apify_haystack_instagram_comments_analysis.ipynb"
-topics = ["Prompting", "Data Scraping"]
-
-[[cookbook]]
-title = "Define & Run Tools "
-notebook = "tools_support.ipynb"
-topics = ["Function Calling", "Chat", "Agents"]
 
 [[cookbook]]
 title = "Agentic RAG with Llama 3.2 3B"
@@ -248,11 +139,6 @@ notebook = "evaluating_ai_with_haystack.ipynb"
 experimental = true
 topics = ["Evaluation"]
 discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
-
-[[cookbook]]
-title = "Multimodal Agent with fastRAG and Haystack"
-notebook = "multimodal_agent_with_fastrag_haystack.ipynb"
-topics = ["Multimodal", "Agents"]
 
 [[cookbook]]
 title = "Web-Enhanced Self-Reflecting Agent"
@@ -293,16 +179,6 @@ topics = ["AzureAISearch", "Agents", "RAG"]
 title = "Hybrid RAG Pipeline with Breakpoints"
 notebook = "hybrid_rag_pipeline_with_breakpoints.ipynb"
 topics = ["Advanced Retrieval", "RAG"]
-
-[[cookbook]]
-title = "Breakpoint on Agent in a Pipeline"
-notebook = "agent-breakpoints.ipynb"
-topics = ["Agents"]
-
-[[cookbook]]
-title = "Simple Keyword Extraction using OpenAIChatGenerator"
-notebook = "keyword-extraction.ipynb"
-topics = ["Keyword Extraction"]
 
 [[cookbook]]
 title = "DevOps Support Agent with Human in the Loop"
