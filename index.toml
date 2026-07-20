@@ -400,3 +400,9 @@ title = "Agentic Itinerary Planning with OpenStreetMap"
 notebook = "agentic_itinerary_planning_openstreetmap.ipynb"
 new = true
 topics = ["Agents", "OpenStreetMap"]
+
+[[cookbook]]
+title = "Building a Cost-Aware Agent with Hooks"
+notebook = "cost_aware_agent.ipynb"
+new = true
+topics = ["Agents"]
