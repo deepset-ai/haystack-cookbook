@@ -220,6 +220,18 @@ topics = ["Model Serving"]
 new = true
 
 [[cookbook]]
+title = "🔵 RAG on Intel GPUs with Haystack and vLLM"
+notebook = "intel_gpu_rag.ipynb"
+topics = ["Model Serving", "RAG"]
+new = true
+
+[[cookbook]]
+title = "🔵 In-Process RAG on Intel GPUs with Haystack"
+notebook = "intel_gpu_inprocess_rag.ipynb"
+topics = ["Model Serving", "RAG"]
+new = true
+
+[[cookbook]]
 title = "🪁 RAG pipelines with Haystack + Zephyr 7B Beta"
 notebook = "zephyr-7b-beta-for-rag.ipynb"
 hidden = true
