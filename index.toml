@@ -167,8 +167,6 @@ topics = ["Customization", "Prompting"]
 [[cookbook]]
 title = "Advanced RAG: Query Expansion"
 notebook = "query-expansion.ipynb"
-experimental = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/346"
 topics = ["Advanced Retrieval", "RAG"]
 
 [[cookbook]]
@@ -266,9 +264,7 @@ topics = ["Function Calling", "Chat", "Agents"]
 [[cookbook]]
 title = "Evaluating AI with Haystack"
 notebook = "evaluating_ai_with_haystack.ipynb"
-experimental = true
 topics = ["Evaluation"]
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/74"
 
 [[cookbook]]
 title = "Multimodal Agent with fastRAG and Haystack"
@@ -385,9 +381,7 @@ new = true
 title = "Using Mem0 Memory Store with Haystack Agents"
 notebook = "memory_store_mem0.ipynb"
 topics = ["Agents", "Chat", "Memory"]
-experimental = true
 new = true
-discuss = "https://github.com/deepset-ai/haystack-experimental/discussions/436"
 
 [[cookbook]]
 title = "LinkedIn, Company Intelligence & Lead Enrichment with Haystack, MongoDB Atlas, and Bright Data"
