@@ -406,3 +406,9 @@ title = "Building a Cost-Aware Agent with Hooks"
 notebook = "cost_aware_agent.ipynb"
 new = true
 topics = ["Agents"]
+
+[[cookbook]]
+title = "Guard Haystack Agent Memory Against Poisoning with OWASP AMG"
+notebook = "guard_haystack_agent_memory_with_amg.ipynb"
+topics = ["Agents", "Memory", "Guardrails"]
+new = true
