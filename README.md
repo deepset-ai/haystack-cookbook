@@ -16,9 +16,7 @@ For more examples, you may also find our [Blog](https://haystack.deepset.ai/blog
 
 ### Contributing to the Haystack Cookbook
 
-If you have an example that uses Haystack, you can add it to this repository by creating a PR. 
-> You can also create a PR directly from Colab by creating a fork of this repository and selecting "Save a Copy to GitHub" on Colab. Once you add your example to your fork, you can create a PR on this repository. 
-
-1. Add your notebook to `/notebooks` folder
-2. Give a descriptive name to your file that includes the names of (if applicable) the model providers, databases, the technologies you use in your example, and/or the task you are completing in the example.
-3. Make sure you add it to `index.toml`, including its title and topics. If the notebook is using an experimental feature, also add the discussion link with the `experimental = true` field.
+⚠️ **New examples start as an issue, not a PR.** Open an issue using our
+[new example template](.github/ISSUE_TEMPLATE/new_example.yml), and once a maintainer assigns it to
+you, open your PR referencing it. PRs without an assigned, linked issue are closed automatically.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.

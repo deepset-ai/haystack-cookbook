@@ -1,0 +1,53 @@
+name: 🍳 New cookbook example
+description: Propose a new notebook for the Haystack Cookbook
+labels: ["new example"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for wanting to contribute! Every new notebook must start as an issue.
+        A maintainer will review it and, once assigned, you can open a PR referencing this issue.
+        See [CONTRIBUTING.md](https://github.com/deepset-ai/haystack-cookbook/blob/main/CONTRIBUTING.md) for the full process.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed notebook title
+      description: A descriptive name (include model providers, databases, or technologies used).
+    validations:
+      required: true
+  - type: textarea
+    id: haystack-feature
+    attributes:
+      label: What Haystack feature or integration does this demonstrate?
+      description: Name the specific Haystack component(s), pipeline pattern, or best practice this notebook showcases.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this a good addition to the cookbook?
+      description: Explain the use case and what a reader learns about using Haystack. This is not the place to pitch a third-party tool.
+    validations:
+      required: true
+  - type: dropdown
+    id: third-party
+    attributes:
+      label: Does this notebook feature a third-party integration (model provider, vector database, tool, etc.)?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: third-party-details
+    attributes:
+      label: If yes, name the third-party product and explain how it's used with Haystack (not as a standalone demo of that product)
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledge
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand a maintainer must assign this issue to me before I open a PR.
+          required: true
