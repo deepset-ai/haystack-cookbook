@@ -408,6 +408,6 @@ new = true
 topics = ["Agents"]
 
 [[cookbook]]
-title = "Native Lorentz Image Retrieval with Hyper3-CLIP and Haystack"
+title = "Hyperbolic Embeddings with Haystack"
 notebook = "hyper3_clip_lorentz_image_retrieval.ipynb"
 topics = ["Multimodal", "Advanced Retrieval"]
