@@ -22,3 +22,7 @@ If you have an example that uses Haystack, you can add it to this repository by 
 1. Add your notebook to `/notebooks` folder
 2. Give a descriptive name to your file that includes the names of (if applicable) the model providers, databases, the technologies you use in your example, and/or the task you are completing in the example.
 3. Make sure you add it to `index.toml`, including its title and topics. If the notebook is using an experimental feature, also add the discussion link with the `experimental = true` field.
+
+## License
+
+This repository is licensed under the [Apache License 2.0](LICENSE).
