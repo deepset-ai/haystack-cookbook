@@ -396,6 +396,12 @@ new = true
 topics = ["Agents", "MCP", "Data Processing"]
 
 [[cookbook]]
+title = "Document Processing with Unstructured Transform MCP"
+notebook = "unstructured_transform_mcp.ipynb"
+new = true
+topics = ["Agents", "MCP", "Data Processing"]
+
+[[cookbook]]
 title = "Agentic Itinerary Planning with OpenStreetMap"
 notebook = "agentic_itinerary_planning_openstreetmap.ipynb"
 new = true
