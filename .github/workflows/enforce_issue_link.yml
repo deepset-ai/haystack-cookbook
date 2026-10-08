@@ -18,6 +18,13 @@ jobs:
             const body = context.payload.pull_request.body || "";
             const author = context.payload.pull_request.user.login;
 
+            // Only enforce on open PRs: edits to old closed/merged PRs must not trigger it.
+            // (Reopening a PR fires `reopened`, at which point its state is open again.)
+            if (context.payload.pull_request.state !== "open") {
+              console.log("PR is not open, skipping.");
+              return;
+            }
+
             // Maintainers and bots (e.g. Dependabot) don't need an assigned issue.
             const exemptAssociations = ["OWNER", "MEMBER", "COLLABORATOR"];
             if (
