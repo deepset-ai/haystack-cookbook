@@ -25,6 +25,22 @@ jobs:
               return;
             }
 
+            // The check passed: drop the `needs-issue` label if an earlier run added it.
+            const clearNeedsIssueLabel = async () => {
+              const labels = (context.payload.pull_request.labels || []).map((l) => l.name);
+              if (!labels.includes("needs-issue")) return;
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.pull_request.number,
+                  name: "needs-issue",
+                });
+              } catch (e) {
+                console.log(`Could not remove needs-issue label: ${e.message}`);
+              }
+            };
+
             // Maintainers and bots (e.g. Dependabot) don't need an assigned issue.
             const exemptAssociations = ["OWNER", "MEMBER", "COLLABORATOR"];
             if (
@@ -32,6 +48,7 @@ jobs:
               exemptAssociations.includes(context.payload.pull_request.author_association)
             ) {
               console.log(`Skipping check for ${author} (${context.payload.pull_request.author_association}).`);
+              await clearNeedsIssueLabel();
               return;
             }
 
@@ -93,3 +110,5 @@ jobs:
               );
               return;
             }
+
+            await clearNeedsIssueLabel();
