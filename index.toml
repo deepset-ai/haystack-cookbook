@@ -406,3 +406,10 @@ title = "Building a Cost-Aware Agent with Hooks"
 notebook = "cost_aware_agent.ipynb"
 new = true
 topics = ["Agents"]
+
+[[cookbook]]
+title = "Governed RAG Pipeline with TealTiger"
+notebook = "governed_rag_pipeline_with_tealtiger.ipynb"
+new = true
+topics = ["rag", "governance", "security", "pii-detection", "tealtiger"]
+
